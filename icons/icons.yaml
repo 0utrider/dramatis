@@ -1,0 +1,73 @@
+collection: icons
+owner: 0utrider
+assets:
+- file: abilities/thrall-strike-physical.webp
+  subject: thrall-strike-physical
+  category: ability
+  type: icon
+  tags:
+  - necromancer
+  - thrall
+  - strike
+  - physical
+  - bone
+  source: self
+  license: private-use
+  added: '2026-11-03'
+  dimensions: 512x512
+- file: abilities/thrall-strike-spirit.webp
+  subject: thrall-strike-spirit
+  category: ability
+  type: icon
+  tags:
+  - necromancer
+  - thrall
+  - strike
+  - spirit
+  - ghost
+  source: self
+  license: private-use
+  added: '2026-11-03'
+  dimensions: 512x512
+- file: abilities/thrall-strike-vitality.webp
+  subject: thrall-strike-vitality
+  category: ability
+  type: icon
+  tags:
+  - necromancer
+  - thrall
+  - strike
+  - vitality
+  - positive
+  source: self
+  license: private-use
+  added: '2026-11-03'
+  dimensions: 512x512
+- file: abilities/thrall-strike-void.webp
+  subject: thrall-strike-void
+  category: ability
+  type: icon
+  tags:
+  - necromancer
+  - thrall
+  - strike
+  - void
+  - negative
+  source: self
+  license: private-use
+  added: '2026-11-03'
+  dimensions: 512x512
+- file: abilities/thrall-strike-template.webp
+  subject: thrall-strike-template
+  category: ability
+  type: icon
+  tags:
+  - necromancer
+  - thrall
+  - strike
+  - neutral
+  - base
+  source: self
+  license: private-use
+  added: '2026-11-03'
+  dimensions: 512x512

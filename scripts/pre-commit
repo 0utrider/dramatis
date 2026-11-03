@@ -1,0 +1,6 @@
+#!/bin/sh
+# Validate, stamp metadata into webp files, and rebuild manifest.json on every commit.
+# Install: cp scripts/pre-commit .git/hooks/pre-commit
+root=$(git rev-parse --show-toplevel) || exit 1
+python3 "$root/scripts/manifest.py" || exit 1
+cd "$root" && git add -u -- manifest.json icons/icons.yaml '*.webp' '*/character.yaml'

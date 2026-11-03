@@ -1,0 +1,10 @@
+# working dirs (sources, references, scratch): any depth
+_*/
+# private project docs (never in the public repo)
+/CLAUDE.md
+/STATUS.md
+/HANDOFF-*.md
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
