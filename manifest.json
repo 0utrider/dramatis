@@ -1769,6 +1769,69 @@
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/fx/mastery-life-death.webp"
   },
   {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "fx/dialogue.webp",
+    "subject": "dialogue",
+    "category": "fx",
+    "type": "fx",
+    "tags": [
+      "necromancer",
+      "dialogue",
+      "macro",
+      "cat"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-04",
+    "dimensions": "512x512",
+    "path": "kingmaker/radomir/fx/dialogue.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/fx/dialogue.webp"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "fx/thrall-hero-point.webp",
+    "subject": "thrall-hero-point",
+    "category": "fx",
+    "type": "fx",
+    "tags": [
+      "necromancer",
+      "thrall",
+      "hero-point",
+      "reroll",
+      "macro"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-04",
+    "dimensions": "512x512",
+    "path": "kingmaker/radomir/fx/thrall-hero-point.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/fx/thrall-hero-point.webp"
+  },
+  {
     "collection": "icons",
     "file": "abilities/thrall-strike-physical.webp",
     "subject": "thrall-strike-physical",
