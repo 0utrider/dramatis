@@ -109,16 +109,49 @@
     "subject": "radomir",
     "category": "character",
     "type": "token",
+    "variant": "animated-wisps",
     "tags": [
       "necromancer",
       "human"
     ],
     "source": "self",
     "license": "private-use",
-    "added": "2026-11-03",
+    "added": "2026-11-05",
     "dimensions": "256x256",
+    "derived_from": "radomir-keyart-01.webp",
     "path": "kingmaker/radomir/radomir-token-01.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-01.webp"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "radomir-token-01.webm",
+    "subject": "radomir",
+    "category": "character",
+    "type": "token",
+    "variant": "animated-wisps",
+    "tags": [
+      "necromancer",
+      "human"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "radomir-keyart-01.webp",
+    "path": "kingmaker/radomir/radomir-token-01.webm",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-01.webm"
   },
   {
     "id": "radomir",
@@ -138,6 +171,69 @@
     "subject": "radomir",
     "category": "character",
     "type": "token",
+    "variant": "animated-spin",
+    "tags": [
+      "necromancer",
+      "human"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "radomir-keyart-01.webp",
+    "path": "kingmaker/radomir/radomir-token-02.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-02.webp"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "radomir-token-02.webm",
+    "subject": "radomir",
+    "category": "character",
+    "type": "token",
+    "variant": "animated-spin",
+    "tags": [
+      "necromancer",
+      "human"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "radomir-keyart-01.webp",
+    "path": "kingmaker/radomir/radomir-token-02.webm",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-02.webm"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "radomir-token-03.webp",
+    "subject": "radomir",
+    "category": "character",
+    "type": "token",
+    "variant": "static",
     "tags": [
       "necromancer",
       "human"
@@ -146,8 +242,8 @@
     "license": "private-use",
     "added": "2026-11-03",
     "dimensions": "256x256",
-    "path": "kingmaker/radomir/radomir-token-02.webp",
-    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-02.webp"
+    "path": "kingmaker/radomir/radomir-token-03.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-03.webp"
   },
   {
     "id": "radomir",
@@ -226,11 +322,144 @@
       "pathbuilder_json": "427316"
     },
     "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
-    "file": "companions/obol-token.webp",
+    "file": "companions/obol-token-01.webp",
     "subject": "obol",
     "category": "companion",
     "subtype": "familiar",
     "type": "token",
+    "variant": "animated-wisps",
+    "tags": [
+      "cat",
+      "undead",
+      "familiar"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "companions/obol-keyart.webp",
+    "path": "kingmaker/radomir/companions/obol-token-01.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/companions/obol-token-01.webp"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "companions/obol-token-01.webm",
+    "subject": "obol",
+    "category": "companion",
+    "subtype": "familiar",
+    "type": "token",
+    "variant": "animated-wisps",
+    "tags": [
+      "cat",
+      "undead",
+      "familiar"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "companions/obol-keyart.webp",
+    "path": "kingmaker/radomir/companions/obol-token-01.webm",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/companions/obol-token-01.webm"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "companions/obol-token-02.webp",
+    "subject": "obol",
+    "category": "companion",
+    "subtype": "familiar",
+    "type": "token",
+    "variant": "animated-spin",
+    "tags": [
+      "cat",
+      "undead",
+      "familiar"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "companions/obol-keyart.webp",
+    "path": "kingmaker/radomir/companions/obol-token-02.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/companions/obol-token-02.webp"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "companions/obol-token-02.webm",
+    "subject": "obol",
+    "category": "companion",
+    "subtype": "familiar",
+    "type": "token",
+    "variant": "animated-spin",
+    "tags": [
+      "cat",
+      "undead",
+      "familiar"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "256x256",
+    "derived_from": "companions/obol-keyart.webp",
+    "path": "kingmaker/radomir/companions/obol-token-02.webm",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/companions/obol-token-02.webm"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "companions/obol-token-03.webp",
+    "subject": "obol",
+    "category": "companion",
+    "subtype": "familiar",
+    "type": "token",
+    "variant": "static",
     "tags": [
       "cat",
       "undead",
@@ -240,8 +469,8 @@
     "license": "private-use",
     "added": "2026-11-03",
     "dimensions": "256x256",
-    "path": "kingmaker/radomir/companions/obol-token.webp",
-    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/companions/obol-token.webp"
+    "path": "kingmaker/radomir/companions/obol-token-03.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/companions/obol-token-03.webp"
   },
   {
     "id": "radomir",

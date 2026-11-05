@@ -18,7 +18,7 @@ Character art and tokens for Foundry VTT, hosted for use in other GMs' games.
 
 Files are named `<subject>-<type>[-NN].webp`: lowercase ASCII and hyphens only. `-NN` is a two-digit
 variant number, used only when more than one image of that type exists. Subfolder files use their own
-subject name (`companions/obol-token.webp`, `fx/life-tap.webp`).
+subject name (`companions/obol-portrait.webp`, `fx/life-tap.webp`).
 
 | Type | Spec | Purpose |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ https://0utrider.github.io/dramatis/<path to file>
 Example:
 
 ```
-https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-01.webp
+https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-03.webp
 ```
 
 ## Campaigns

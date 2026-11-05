@@ -53,17 +53,59 @@ assets:
   subject: radomir
   category: character
   type: token
+  variant: animated-wisps
   tags:
   - necromancer
   - human
   source: self
   license: private-use
-  added: '2026-11-03'
+  added: '2026-11-05'
   dimensions: 256x256
+  derived_from: radomir-keyart-01.webp
+- file: radomir-token-01.webm
+  subject: radomir
+  category: character
+  type: token
+  variant: animated-wisps
+  tags:
+  - necromancer
+  - human
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: radomir-keyart-01.webp
 - file: radomir-token-02.webp
   subject: radomir
   category: character
   type: token
+  variant: animated-spin
+  tags:
+  - necromancer
+  - human
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: radomir-keyart-01.webp
+- file: radomir-token-02.webm
+  subject: radomir
+  category: character
+  type: token
+  variant: animated-spin
+  tags:
+  - necromancer
+  - human
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: radomir-keyart-01.webp
+- file: radomir-token-03.webp
+  subject: radomir
+  category: character
+  type: token
+  variant: static
   tags:
   - necromancer
   - human
@@ -98,11 +140,72 @@ assets:
   derived_from: companions/obol-keyart.webp
   added: '2026-11-03'
   dimensions: 1536x1536
-- file: companions/obol-token.webp
+- file: companions/obol-token-01.webp
   subject: obol
   category: companion
   subtype: familiar
   type: token
+  variant: animated-wisps
+  tags:
+  - cat
+  - undead
+  - familiar
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: companions/obol-keyart.webp
+- file: companions/obol-token-01.webm
+  subject: obol
+  category: companion
+  subtype: familiar
+  type: token
+  variant: animated-wisps
+  tags:
+  - cat
+  - undead
+  - familiar
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: companions/obol-keyart.webp
+- file: companions/obol-token-02.webp
+  subject: obol
+  category: companion
+  subtype: familiar
+  type: token
+  variant: animated-spin
+  tags:
+  - cat
+  - undead
+  - familiar
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: companions/obol-keyart.webp
+- file: companions/obol-token-02.webm
+  subject: obol
+  category: companion
+  subtype: familiar
+  type: token
+  variant: animated-spin
+  tags:
+  - cat
+  - undead
+  - familiar
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 256x256
+  derived_from: companions/obol-keyart.webp
+- file: companions/obol-token-03.webp
+  subject: obol
+  category: companion
+  subtype: familiar
+  type: token
+  variant: static
   tags:
   - cat
   - undead

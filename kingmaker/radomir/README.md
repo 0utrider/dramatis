@@ -25,8 +25,9 @@ Metadata for every file is in `character.yaml`.
 
 - `radomir-keyart-01.webp`, `radomir-keyart-02.webp` (final toll scene): master art
 - `radomir-portrait.webp`: 1:1 portrait
-- `radomir-token-01.webp`, `radomir-token-02.webp`: tokens
-- `companions/`: Obol, the familiar (keyart, portrait, token)
+- `radomir-token-01` (wisps ring) and `radomir-token-02` (spin ring): animated tokens, each as `.webp` and `.webm` (use the `.webm` in Foundry, it shows animated WebP as a still frame)
+- `radomir-token-03.webp`: static token
+- `companions/`: Obol, the familiar (keyart, portrait, static and animated tokens)
 - `summons/`: thralls (`borrowed-*-01` to `-07`), stag, rabbit, singer and the reeds, each with keyart, portrait and token
 - `summons/veil/`: 512×512 token variants of the summons
 - `fx/`: `life-tap.webp`, `inevitable-return.webp`, `thrall-strike.webp` (his magenta variant of the shared thrall strike icon)

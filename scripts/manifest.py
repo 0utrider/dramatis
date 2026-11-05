@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate character.yaml files, stamp metadata into each .webp, against the published .webp files and rebuild manifest.json.
+"""Validate character.yaml files, stamp metadata into each .webp (.webm is listed and checked but not stamped), against the published .webp files and rebuild manifest.json.
 
 Run from anywhere. Exits non-zero if validation fails. Embeds EXIF/XMP (repo URL, owner, license) in every published .webp (idempotent). Fills in `dimensions` for every asset
 (rewrites character.yaml only when a value changed) and writes /manifest.json.
@@ -23,6 +23,9 @@ ICON_FOLDER_CATEGORY = {"abilities": "ability", "spells": "spell", "equipment": 
 SYSTEMS = {"pf2e", "sf2e", "pf1e"}
 SOURCES = {"commissioned", "self", "stock"}
 CHARACTER_FIELDS = ("id", "name", "campaign", "system", "gm", "owner", "race", "class", "links", "summary")
+
+
+VIDEO_EXT = ".webm"  # animated token companions: validated and listed, but not stamped (no EXIF/XMP in webm)
 
 
 def is_working(path: Path) -> bool:
@@ -86,7 +89,7 @@ def main() -> int:
     char_dirs = {p.parent for p in yamls}
 
     # every published webp must live under a character folder (or the shared icons library)
-    for f in sorted(ROOT.rglob("*.webp")):
+    for f in sorted([*ROOT.rglob("*.webp"), *ROOT.rglob("*" + VIDEO_EXT)]):
         if is_working(f) or ROOT / "icons" in f.parents:
             continue
         if not any(d in f.parents for d in char_dirs):
@@ -126,21 +129,27 @@ def main() -> int:
                 errors.append(f"{rel_dir}/{f}: missing subject")
             if a.get("source") and a["source"] not in SOURCES:
                 errors.append(f"{rel_dir}/{f}: source must be one of {sorted(SOURCES)}")
-            with Image.open(path) as im:
-                dims = f"{im.width}x{im.height}"
-            if a.get("dimensions") != dims:
-                a["dimensions"] = dims
-                changed = True
+            is_video = path.suffix == VIDEO_EXT
+            if is_video:
+                if not a.get("dimensions"):
+                    errors.append(f"{rel_dir}/{f}: .webm needs 'dimensions' set by hand")
+            else:
+                with Image.open(path) as im:
+                    dims = f"{im.width}x{im.height}"
+                if a.get("dimensions") != dims:
+                    a["dimensions"] = dims
+                    changed = True
             entry = {
                 **{k: data.get(k) for k in CHARACTER_FIELDS},
                 **a,
                 "path": f"{rel_dir}/{f}",
                 "url": f"{BASE_URL}/{rel_dir}/{f}",
             }
-            stamp(path, {**entry, "license": a.get("license"), "owner": data.get("owner")})
+            if not is_video:
+                stamp(path, {**entry, "license": a.get("license"), "owner": data.get("owner")})
             manifest.append(entry)
 
-        for f in sorted(cdir.rglob("*.webp")):
+        for f in sorted([*cdir.rglob("*.webp"), *cdir.rglob("*" + VIDEO_EXT)]):
             rel = f.relative_to(cdir).as_posix()
             if not is_working(f) and rel not in listed:
                 errors.append(f"{rel_dir}/{rel}: published file has no assets entry")
