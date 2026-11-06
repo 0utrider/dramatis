@@ -214,304 +214,6 @@ assets:
   license: private-use
   added: '2026-11-03'
   dimensions: 256x256
-- file: summons/borrowed-keyart-01.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - woman
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-01.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - woman
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-01.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-01.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - woman
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
-- file: summons/borrowed-keyart-02.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - man
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-02.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - man
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-02.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-02.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - man
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
-- file: summons/borrowed-keyart-03.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - ranger
-  - woman
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-03.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - ranger
-  - woman
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-03.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-03.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - ranger
-  - woman
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
-- file: summons/borrowed-keyart-04.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - dwarf
-  - miner
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-04.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - dwarf
-  - miner
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-04.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-04.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - dwarf
-  - miner
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
-- file: summons/borrowed-keyart-05.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - elf
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-05.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - elf
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-05.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-05.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - elf
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
-- file: summons/borrowed-keyart-06.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - elder
-  - woman
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-06.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - elder
-  - woman
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-06.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-06.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - elder
-  - woman
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
-- file: summons/borrowed-keyart-07.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: keyart
-  tags:
-  - ghost
-  - thrall
-  - soldier
-  - man
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 2400x1792
-- file: summons/borrowed-portrait-07.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: portrait
-  tags:
-  - ghost
-  - thrall
-  - soldier
-  - man
-  source: self
-  license: private-use
-  derived_from: summons/borrowed-keyart-07.webp
-  added: '2026-11-03'
-  dimensions: 1792x1792
-- file: summons/borrowed-token-07.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  tags:
-  - ghost
-  - thrall
-  - soldier
-  - man
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 256x256
 - file: summons/stag-keyart.webp
   subject: stag
   category: summon
@@ -537,10 +239,39 @@ assets:
   derived_from: summons/stag-keyart.webp
   added: '2026-11-03'
   dimensions: 1792x1792
-- file: summons/stag-token.webp
+- file: summons/stag-token-01.webm
   subject: stag
   category: summon
   type: token
+  variant: animated-smoke-brass
+  tags:
+  - spirit
+  - stag
+  - guardian
+  source: self
+  license: private-use
+  dimensions: 512x512
+  derived_from: summons/stag-keyart.webp
+  added: '2026-11-05'
+- file: summons/stag-token-01.webp
+  subject: stag
+  category: summon
+  type: token
+  variant: animated-smoke-brass
+  tags:
+  - spirit
+  - stag
+  - guardian
+  source: self
+  license: private-use
+  dimensions: 256x256
+  derived_from: summons/stag-keyart.webp
+  added: '2026-11-05'
+- file: summons/stag-token-02.webp
+  subject: stag
+  category: summon
+  type: token
+  variant: static
   tags:
   - spirit
   - stag
@@ -572,10 +303,37 @@ assets:
   derived_from: summons/rabbit-keyart.webp
   added: '2026-11-03'
   dimensions: 1792x1792
-- file: summons/rabbit-token.webp
+- file: summons/rabbit-token-01.webm
   subject: rabbit
   category: summon
   type: token
+  variant: animated-smoke
+  tags:
+  - spirit
+  - rabbit
+  source: self
+  license: private-use
+  dimensions: 512x512
+  derived_from: summons/rabbit-keyart.webp
+  added: '2026-11-05'
+- file: summons/rabbit-token-01.webp
+  subject: rabbit
+  category: summon
+  type: token
+  variant: animated-smoke
+  tags:
+  - spirit
+  - rabbit
+  source: self
+  license: private-use
+  dimensions: 256x256
+  derived_from: summons/rabbit-keyart.webp
+  added: '2026-11-05'
+- file: summons/rabbit-token-02.webp
+  subject: rabbit
+  category: summon
+  type: token
+  variant: static
   tags:
   - spirit
   - rabbit
@@ -608,10 +366,39 @@ assets:
   derived_from: summons/singer-keyart.webp
   added: '2026-11-03'
   dimensions: 1792x1792
-- file: summons/singer-token.webp
+- file: summons/singer-token-01.webm
   subject: singer
   category: summon
   type: token
+  variant: animated-smoke
+  tags:
+  - spirit
+  - singer
+  - lantern
+  source: self
+  license: private-use
+  dimensions: 512x512
+  derived_from: summons/singer-keyart.webp
+  added: '2026-11-05'
+- file: summons/singer-token-01.webp
+  subject: singer
+  category: summon
+  type: token
+  variant: animated-smoke
+  tags:
+  - spirit
+  - singer
+  - lantern
+  source: self
+  license: private-use
+  dimensions: 256x256
+  derived_from: summons/singer-keyart.webp
+  added: '2026-11-05'
+- file: summons/singer-token-02.webp
+  subject: singer
+  category: summon
+  type: token
+  variant: static
   tags:
   - spirit
   - singer
@@ -647,11 +434,42 @@ assets:
   derived_from: summons/reeds-keyart.webp
   added: '2026-11-03'
   dimensions: 1792x1792
-- file: summons/reeds-token.webp
+- file: summons/reeds-token-01.webm
   subject: reeds
   category: summon
   subtype: reed
   type: token
+  variant: animated-smoke
+  tags:
+  - spirit
+  - reeds
+  - lantern
+  source: self
+  license: private-use
+  dimensions: 512x512
+  derived_from: summons/reeds-keyart.webp
+  added: '2026-11-05'
+- file: summons/reeds-token-01.webp
+  subject: reeds
+  category: summon
+  subtype: reed
+  type: token
+  variant: animated-smoke
+  tags:
+  - spirit
+  - reeds
+  - lantern
+  source: self
+  license: private-use
+  dimensions: 256x256
+  derived_from: summons/reeds-keyart.webp
+  added: '2026-11-05'
+- file: summons/reeds-token-02.webp
+  subject: reeds
+  category: summon
+  subtype: reed
+  type: token
+  variant: static
   tags:
   - spirit
   - reeds
@@ -660,173 +478,6 @@ assets:
   license: private-use
   added: '2026-11-03'
   dimensions: 256x256
-- file: summons/veil/borrowed-token-01.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - woman
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/borrowed-token-02.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - farmer
-  - man
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/borrowed-token-03.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - ranger
-  - woman
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/borrowed-token-04.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - dwarf
-  - miner
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/borrowed-token-05.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - elf
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/borrowed-token-06.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - elder
-  - woman
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/borrowed-token-07.webp
-  subject: borrowed
-  category: summon
-  subtype: thrall
-  type: token
-  variant: veil
-  tags:
-  - ghost
-  - thrall
-  - soldier
-  - man
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/stag-token.webp
-  subject: stag
-  category: summon
-  type: token
-  variant: veil
-  tags:
-  - spirit
-  - stag
-  - guardian
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/rabbit-token.webp
-  subject: rabbit
-  category: summon
-  type: token
-  variant: veil
-  tags:
-  - spirit
-  - rabbit
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/singer-token.webp
-  subject: singer
-  category: summon
-  type: token
-  variant: veil
-  tags:
-  - spirit
-  - singer
-  - lantern
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
-- file: summons/veil/reeds-token.webp
-  subject: reeds
-  category: summon
-  subtype: reed
-  type: token
-  variant: veil
-  tags:
-  - spirit
-  - reeds
-  - lantern
-  - veil
-  source: self
-  license: private-use
-  added: '2026-11-03'
-  dimensions: 512x512
 - file: fx/inevitable-return.webp
   subject: inevitable-return
   category: fx
@@ -902,3 +553,297 @@ assets:
   license: private-use
   added: '2026-11-04'
   dimensions: 512x512
+- file: summons/borrowed-keyart-01.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: keyart
+  tags: &id001
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 2752x1536
+- file: summons/borrowed-portrait-01.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: portrait
+  tags: *id001
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  derived_from: summons/borrowed-keyart-01.webp
+  dimensions: 1536x1536
+- file: summons/borrowed-keyart-02.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: keyart
+  tags: &id002
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 2752x1536
+- file: summons/borrowed-portrait-02.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: portrait
+  tags: *id002
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  derived_from: summons/borrowed-keyart-02.webp
+  dimensions: 1536x1536
+- file: summons/borrowed-keyart-03.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: keyart
+  tags: &id003
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 2752x1536
+- file: summons/borrowed-portrait-03.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: portrait
+  tags: *id003
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  derived_from: summons/borrowed-keyart-03.webp
+  dimensions: 1536x1536
+- file: summons/borrowed-keyart-04.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: keyart
+  tags: &id004
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 2752x1536
+- file: summons/borrowed-portrait-04.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: portrait
+  tags: *id004
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  derived_from: summons/borrowed-keyart-04.webp
+  dimensions: 1536x1536
+- file: summons/borrowed-keyart-05.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: keyart
+  tags: &id005
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 2752x1536
+- file: summons/borrowed-portrait-05.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: portrait
+  tags: *id005
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  derived_from: summons/borrowed-keyart-05.webp
+  dimensions: 1536x1536
+- file: summons/borrowed-keyart-06.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: keyart
+  tags: &id006
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 2752x1536
+- file: summons/borrowed-portrait-06.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: portrait
+  tags: *id006
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  derived_from: summons/borrowed-keyart-06.webp
+  dimensions: 1536x1536
+- file: summons/borrowed-token-01.webm
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: &id007
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-01.webp
+  dimensions: 512x512
+  added: '2026-11-05'
+- file: summons/borrowed-token-01.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: *id007
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-01.webp
+  dimensions: 256x256
+  added: '2026-11-05'
+- file: summons/borrowed-token-02.webm
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: &id008
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-02.webp
+  dimensions: 512x512
+  added: '2026-11-05'
+- file: summons/borrowed-token-02.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: *id008
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-02.webp
+  dimensions: 256x256
+  added: '2026-11-05'
+- file: summons/borrowed-token-03.webm
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: &id009
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-03.webp
+  dimensions: 512x512
+  added: '2026-11-05'
+- file: summons/borrowed-token-03.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: *id009
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-03.webp
+  dimensions: 256x256
+  added: '2026-11-05'
+- file: summons/borrowed-token-04.webm
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: &id010
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-04.webp
+  dimensions: 512x512
+  added: '2026-11-05'
+- file: summons/borrowed-token-04.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: *id010
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-04.webp
+  dimensions: 256x256
+  added: '2026-11-05'
+- file: summons/borrowed-token-05.webm
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: &id011
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-05.webp
+  dimensions: 512x512
+  added: '2026-11-05'
+- file: summons/borrowed-token-05.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: *id011
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-05.webp
+  dimensions: 256x256
+  added: '2026-11-05'
+- file: summons/borrowed-token-06.webm
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: &id012
+  - ghost
+  - thrall
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-06.webp
+  dimensions: 512x512
+  added: '2026-11-05'
+- file: summons/borrowed-token-06.webp
+  subject: borrowed
+  category: summon
+  subtype: thrall
+  type: token
+  variant: animated-smoke
+  tags: *id012
+  source: self
+  license: private-use
+  derived_from: summons/borrowed-keyart-06.webp
+  dimensions: 256x256
+  added: '2026-11-05'
