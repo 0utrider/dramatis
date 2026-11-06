@@ -29,12 +29,11 @@ VIDEO_EXT = ".webm"  # needs hand-set dimensions; stamped with Matroska tags (no
 PUBLISHED_EXT = (".webp", ".webm", ".gif", ".png")  # every one gets embedded metadata (see webpmeta.py)
 
 
-PRIVATE_TOP = {"av"}  # gitignored top-level dirs (Abomination Vaults work in progress): not validated or published
+PRIVATE_TOP = {"av"}  # gitignored campaign dirs (Abomination Vaults work in progress): validated and stamped, not listed in manifest.json
 
 
 def is_working(path: Path) -> bool:
-    parts = path.relative_to(ROOT).parts
-    return any(p.startswith("_") for p in parts) or parts[0] in PRIVATE_TOP
+    return any(p.startswith("_") for p in path.relative_to(ROOT).parts)
 
 
 def stamp(path: Path, entry: dict) -> None:
@@ -151,7 +150,8 @@ def main() -> int:
                 "url": f"{BASE_URL}/{rel_dir}/{f}",
             }
             stamp(path, {**entry, "license": a.get("license"), "owner": data.get("owner")})
-            manifest.append(entry)
+            if cdir.relative_to(ROOT).parts[0] not in PRIVATE_TOP:
+                manifest.append(entry)
 
         for f in sorted([*cdir.rglob("*.webp"), *(f for e in PUBLISHED_EXT[1:] for f in cdir.rglob("*" + e))]):
             rel = f.relative_to(cdir).as_posix()
