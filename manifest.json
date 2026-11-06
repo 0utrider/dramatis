@@ -1293,6 +1293,37 @@
       "pathbuilder_json": "427316"
     },
     "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
+    "file": "fx/release-thralls.webp",
+    "subject": "release-thralls",
+    "category": "fx",
+    "type": "fx",
+    "tags": [
+      "necromancer",
+      "thrall",
+      "release",
+      "macro"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-05",
+    "dimensions": "512x512",
+    "path": "kingmaker/radomir/fx/release-thralls.webp",
+    "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/fx/release-thralls.webp"
+  },
+  {
+    "id": "radomir",
+    "name": "Radomir Navić",
+    "campaign": "Kingmaker",
+    "system": "pf2e",
+    "gm": "Emerald",
+    "owner": "0utrider",
+    "race": "Human (Versatile Human)",
+    "class": "Necromancer",
+    "links": {
+      "pathbuilder": "https://pathbuilder2e.com/launch.html?build=1620960",
+      "pathbuilder_json": "427316"
+    },
+    "summary": "Soft-spoken field medic turned death's quiet steward, with an undead cat and borrowed ghostly hands.",
     "file": "summons/borrowed-keyart-01.webp",
     "subject": "borrowed",
     "category": "summon",

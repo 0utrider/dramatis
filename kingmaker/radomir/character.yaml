@@ -553,6 +553,19 @@ assets:
   license: private-use
   added: '2026-11-04'
   dimensions: 512x512
+- file: fx/release-thralls.webp
+  subject: release-thralls
+  category: fx
+  type: fx
+  tags:
+  - necromancer
+  - thrall
+  - release
+  - macro
+  source: self
+  license: private-use
+  added: '2026-11-05'
+  dimensions: 512x512
 - file: summons/borrowed-keyart-01.webp
   subject: borrowed
   category: summon
