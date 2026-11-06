@@ -1,0 +1,85 @@
+id: smoke
+name: Smoke
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+class: Soldier
+summary: Starfinder 2e soldier, a heavy gunner in olive-bronze power armor.
+assets:
+- file: smoke-keyart.webp
+  subject: smoke
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  dimensions: 2752x1536
+- file: smoke-portrait.webp
+  subject: smoke
+  category: character
+  type: portrait
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: smoke-keyart.webp
+  dimensions: 1536x1536
+- file: smoke-token.webm
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-ammo-belt
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: smoke-keyart.webp
+  dimensions: 512x512
+- file: smoke-token.webp
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-ammo-belt
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: smoke-keyart.webp
+  dimensions: 256x256
+- file: smoke-token.gif
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-ammo-belt
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: smoke-keyart.webp
+  dimensions: 256x256
+- file: smoke-token.png
+  subject: smoke
+  category: character
+  type: token
+  variant: static
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: smoke-keyart.webp
+  dimensions: 512x512

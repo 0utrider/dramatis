@@ -1,0 +1,85 @@
+id: fortune
+name: Fortune
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+class: Envoy
+summary: Starfinder 2e envoy with a red-haired, green-eyed, burgundy-suited swagger.
+assets:
+- file: fortune-keyart.webp
+  subject: fortune
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - envoy
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  dimensions: 2752x1536
+- file: fortune-portrait.webp
+  subject: fortune
+  category: character
+  type: portrait
+  tags:
+  - envoy
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: fortune-keyart.webp
+  dimensions: 1536x1536
+- file: fortune-token.webm
+  subject: fortune
+  category: character
+  type: token
+  variant: animated-chip
+  tags:
+  - envoy
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: fortune-keyart.webp
+  dimensions: 512x512
+- file: fortune-token.webp
+  subject: fortune
+  category: character
+  type: token
+  variant: animated-chip
+  tags:
+  - envoy
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: fortune-keyart.webp
+  dimensions: 256x256
+- file: fortune-token.gif
+  subject: fortune
+  category: character
+  type: token
+  variant: animated-chip
+  tags:
+  - envoy
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: fortune-keyart.webp
+  dimensions: 256x256
+- file: fortune-token.png
+  subject: fortune
+  category: character
+  type: token
+  variant: static
+  tags:
+  - envoy
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: fortune-keyart.webp
+  dimensions: 512x512

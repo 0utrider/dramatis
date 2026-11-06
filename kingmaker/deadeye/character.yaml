@@ -1,0 +1,85 @@
+id: deadeye
+name: Deadeye
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+class: Operative
+summary: Starfinder 2e operative with amber eyes, silver circuit lines and a sword on his back.
+assets:
+- file: deadeye-keyart.webp
+  subject: deadeye
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - operative
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  dimensions: 2752x1536
+- file: deadeye-portrait.webp
+  subject: deadeye
+  category: character
+  type: portrait
+  tags:
+  - operative
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: deadeye-keyart.webp
+  dimensions: 1536x1536
+- file: deadeye-token.webm
+  subject: deadeye
+  category: character
+  type: token
+  variant: animated-reticle
+  tags:
+  - operative
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: deadeye-keyart.webp
+  dimensions: 512x512
+- file: deadeye-token.webp
+  subject: deadeye
+  category: character
+  type: token
+  variant: animated-reticle
+  tags:
+  - operative
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: deadeye-keyart.webp
+  dimensions: 256x256
+- file: deadeye-token.gif
+  subject: deadeye
+  category: character
+  type: token
+  variant: animated-reticle
+  tags:
+  - operative
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: deadeye-keyart.webp
+  dimensions: 256x256
+- file: deadeye-token.png
+  subject: deadeye
+  category: character
+  type: token
+  variant: static
+  tags:
+  - operative
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: deadeye-keyart.webp
+  dimensions: 512x512
