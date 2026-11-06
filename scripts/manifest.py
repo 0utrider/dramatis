@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Validate character.yaml files, stamp metadata into each .webp (.webm is listed and checked but not stamped), against the published .webp files and rebuild manifest.json.
+"""Validate character.yaml files, stamp metadata into each published .webp/.png/.gif/.webm, against the published files and rebuild manifest.json.
 
-Run from anywhere. Exits non-zero if validation fails. Embeds EXIF/XMP (repo URL, owner, license) in every published .webp (idempotent). Fills in `dimensions` for every asset
+Run from anywhere. Exits non-zero if validation fails. Embeds EXIF/XMP (repo URL, owner, license) in every published file (idempotent; webm gets Matroska tags). Fills in `dimensions` for every asset
 (rewrites character.yaml only when a value changed) and writes /manifest.json.
 Requires Pillow and PyYAML.
 """
@@ -25,8 +25,8 @@ SOURCES = {"commissioned", "self", "stock"}
 CHARACTER_FIELDS = ("id", "name", "campaign", "system", "gm", "owner", "race", "class", "links", "summary")
 
 
-NOSTAMP_EXT = {".webm", ".gif", ".png"}  # token companions (video, GIF for Discord, static PNG): listed, not stamped
-VIDEO_EXT = ".webm"  # animated token companions: validated and listed, but not stamped (no EXIF/XMP in webm)
+VIDEO_EXT = ".webm"  # needs hand-set dimensions; stamped with Matroska tags (no EXIF/XMP in webm)
+PUBLISHED_EXT = (".webp", ".webm", ".gif", ".png")  # every one gets embedded metadata (see webpmeta.py)
 
 
 def is_working(path: Path) -> bool:
@@ -35,7 +35,7 @@ def is_working(path: Path) -> bool:
 
 def stamp(path: Path, entry: dict) -> None:
     exif, xmp = webpmeta.build(entry)
-    webpmeta.write_meta(path, exif, xmp)
+    webpmeta.write_meta(path, exif, xmp, entry)
 
 
 def check_icons(errors: list, manifest: list) -> None:
@@ -90,7 +90,7 @@ def main() -> int:
     char_dirs = {p.parent for p in yamls}
 
     # every published webp must live under a character folder (or the shared icons library)
-    for f in sorted([*ROOT.rglob("*.webp"), *(f for e in NOSTAMP_EXT for f in ROOT.rglob("*" + e))]):
+    for f in sorted([*ROOT.rglob("*.webp"), *(f for e in PUBLISHED_EXT[1:] for f in ROOT.rglob("*" + e))]):
         if is_working(f) or ROOT / "icons" in f.parents:
             continue
         if not any(d in f.parents for d in char_dirs):
@@ -131,7 +131,6 @@ def main() -> int:
             if a.get("source") and a["source"] not in SOURCES:
                 errors.append(f"{rel_dir}/{f}: source must be one of {sorted(SOURCES)}")
             is_video = path.suffix == VIDEO_EXT
-            nostamp = path.suffix in NOSTAMP_EXT
             if is_video:
                 if not a.get("dimensions"):
                     errors.append(f"{rel_dir}/{f}: .webm needs 'dimensions' set by hand")
@@ -147,11 +146,10 @@ def main() -> int:
                 "path": f"{rel_dir}/{f}",
                 "url": f"{BASE_URL}/{rel_dir}/{f}",
             }
-            if not nostamp:
-                stamp(path, {**entry, "license": a.get("license"), "owner": data.get("owner")})
+            stamp(path, {**entry, "license": a.get("license"), "owner": data.get("owner")})
             manifest.append(entry)
 
-        for f in sorted([*cdir.rglob("*.webp"), *(f for e in NOSTAMP_EXT for f in cdir.rglob("*" + e))]):
+        for f in sorted([*cdir.rglob("*.webp"), *(f for e in PUBLISHED_EXT[1:] for f in cdir.rglob("*" + e))]):
             rel = f.relative_to(cdir).as_posix()
             if not is_working(f) and rel not in listed:
                 errors.append(f"{rel_dir}/{rel}: published file has no assets entry")

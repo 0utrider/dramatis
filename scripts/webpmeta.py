@@ -1,5 +1,10 @@
-"""Write EXIF and XMP chunks into a .webp without re-encoding the image data."""
+"""Write EXIF and XMP into published files without re-encoding: .webp (EXIF+XMP chunks), .png (eXIf + iTXt XMP),
+.gif (XMP application extension) and .webm (Matroska tags via ffmpeg stream copy; no EXIF/XMP in the container)."""
+import shutil
 import struct
+import subprocess
+import zlib
+from pathlib import Path
 from xml.sax.saxutils import escape
 
 from PIL import Image
@@ -30,8 +35,109 @@ def read_meta(path) -> dict:
     return out
 
 
-def write_meta(path, exif: bytes, xmp: bytes) -> bool:
-    """Replace EXIF/XMP chunks. Returns True if the file changed."""
+def write_meta(path, exif: bytes, xmp: bytes, entry: dict | None = None) -> bool:
+    """Replace embedded metadata. Returns True if the file changed."""
+    ext = Path(path).suffix.lower()
+    if ext == ".png":
+        return _write_png(path, exif, xmp)
+    if ext == ".gif":
+        return _write_gif(path, xmp)
+    if ext == ".webm":
+        return _write_webm(path, entry or {})
+    return _write_webp(path, exif, xmp)
+
+
+def _write_png(path, exif: bytes, xmp: bytes) -> bool:
+    data = open(path, "rb").read()
+    if data[:8] != b"\x89PNG\r\n\x1a\n":
+        raise ValueError("not a PNG file")
+    if exif[:6] == b"Exif\x00\x00":
+        exif = exif[6:]
+
+    def chunk(tag: bytes, body: bytes) -> bytes:
+        return struct.pack(">I", len(body)) + tag + body + struct.pack(">I", zlib.crc32(tag + body))
+
+    out, pos = [data[:8]], 8
+    while pos < len(data):
+        size = struct.unpack(">I", data[pos:pos + 4])[0]
+        tag, body = data[pos + 4:pos + 8], data[pos + 8:pos + 8 + size]
+        raw = data[pos:pos + 12 + size]
+        pos += 12 + size
+        if tag == b"eXIf" or (tag == b"iTXt" and body.startswith(b"XML:com.adobe.xmp\x00")):
+            continue
+        out.append(raw)
+        if tag == b"IHDR":
+            out.append(chunk(b"eXIf", exif))
+            out.append(chunk(b"iTXt", b"XML:com.adobe.xmp\x00\x00\x00\x00\x00" + xmp))
+    new = b"".join(out)
+    if new == data:
+        return False
+    open(path, "wb").write(new)
+    return True
+
+
+_GIF_XMP_TRAILER = b"\x01" + bytes(range(0xFF, 0, -1)) + b"\x00\x00"
+
+
+def _write_gif(path, xmp: bytes) -> bool:
+    data = open(path, "rb").read()
+    if data[:6] not in (b"GIF87a", b"GIF89a"):
+        raise ValueError("not a GIF file")
+    pos = 13
+    if data[10] & 0x80:
+        pos += 3 * (2 << (data[10] & 7))
+
+    def skip_ext(p):  # p at 0x21; returns end of the extension block
+        p += 2
+        while data[p]:
+            p += data[p] + 1
+        return p + 1
+
+    head, keep = data[:pos], []
+    while data[pos] == 0x21 and data[pos + 1] != 0xF9:  # header extensions (NETSCAPE loop etc.), stop at first frame
+        end = skip_ext(pos)
+        if not data[pos:end].startswith(b"\x21\xff\x0bXMP DataXMP"):
+            keep.append(data[pos:end])
+        pos = end
+    block = b"\x21\xff\x0bXMP DataXMP" + xmp + _GIF_XMP_TRAILER
+    new = head + b"".join(keep) + block + data[pos:]
+    if new == data:
+        return False
+    open(path, "wb").write(new)
+    return True
+
+
+def _write_webm(path, entry: dict) -> bool:
+    """Matroska tags by stream copy. Idempotent: skipped when the tags already match."""
+    ffmpeg, ffprobe = shutil.which("ffmpeg"), shutil.which("ffprobe")
+    if not (ffmpeg and ffprobe):
+        return False
+    owner = entry.get("owner") or "0utrider"
+    lic = entry.get("license") or "unspecified"
+    year = str(entry.get("added") or "")[:4] or "2026"
+    tags = {
+        "title": f"{entry.get('subject')} {entry.get('type')}",
+        "artist": owner,
+        "copyright": f"Copyright {year} {owner}. License: {lic}.",
+        "comment": f"Original: {REPO_URL} ({entry.get('path')})",
+    }
+    probe = subprocess.run([ffprobe, "-v", "error", "-show_entries", "format_tags", "-of", "json", str(path)],
+                           capture_output=True, text=True).stdout
+    import json
+    have = {k.lower(): v for k, v in (json.loads(probe or "{}").get("format", {}).get("tags") or {}).items()}
+    if all(have.get(k) == v for k, v in tags.items()):
+        return False
+    tmp = Path(path).with_suffix(".tmp.webm")
+    cmd = [ffmpeg, "-v", "error", "-y", "-i", str(path), "-map", "0", "-c", "copy", "-fflags", "+bitexact",
+           "-map_metadata", "-1"]
+    for k, v in tags.items():
+        cmd += ["-metadata", f"{k}={v}"]
+    subprocess.run(cmd + [str(tmp)], check=True)
+    tmp.replace(path)
+    return True
+
+
+def _write_webp(path, exif: bytes, xmp: bytes) -> bool:
     data = open(path, "rb").read()
     chunks = [(t, b) for t, b in _chunks(data)]
     with Image.open(path) as im:
