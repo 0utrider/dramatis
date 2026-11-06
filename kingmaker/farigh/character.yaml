@@ -1,0 +1,86 @@
+id: farigh
+name: Farigh
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Novian
+class: Monk
+summary: A tiny sentient black hole with a cracked grin. "Farigh" is Arabic for "void".
+assets:
+- file: farigh-keyart.webp
+  subject: farigh
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - novian
+  - black-hole
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  dimensions: 2752x1536
+- file: farigh-portrait.webp
+  subject: farigh
+  category: character
+  type: portrait
+  tags:
+  - novian
+  - black-hole
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: farigh-keyart.webp
+  dimensions: 1536x1536
+- file: farigh-token.webm
+  subject: farigh
+  category: character
+  type: token
+  dimensions: 512x512
+  variant: animated-accretion
+  tags:
+  - novian
+  - black-hole
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: farigh-keyart.webp
+- file: farigh-token.webp
+  subject: farigh
+  category: character
+  type: token
+  variant: animated-accretion
+  tags:
+  - novian
+  - black-hole
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: farigh-keyart.webp
+  dimensions: 256x256
+- file: farigh-token.gif
+  subject: farigh
+  category: character
+  type: token
+  variant: animated-accretion
+  tags:
+  - novian
+  - black-hole
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: farigh-keyart.webp
+  dimensions: 256x256
+- file: farigh-token.png
+  subject: farigh
+  category: character
+  type: token
+  variant: static
+  tags:
+  - novian
+  - black-hole
+  source: self
+  license: private-use
+  added: '2026-11-06'
+  derived_from: farigh-keyart.webp
+  dimensions: 512x512
