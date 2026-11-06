@@ -107,6 +107,13 @@ def _write_gif(path, xmp: bytes) -> bool:
     return True
 
 
+def _webm_has_alpha(ffmpeg, path) -> bool:
+    """True if the first frame decodes (libvpx, which reads the alpha plane) with any non-opaque pixel."""
+    raw = subprocess.run([ffmpeg, "-v", "error", "-c:v", "libvpx-vp9", "-i", str(path), "-frames:v", "1",
+                          "-f", "rawvideo", "-pix_fmt", "rgba", "-"], capture_output=True).stdout
+    return bool(raw) and min(raw[3::4]) < 255
+
+
 def _write_webm(path, entry: dict) -> bool:
     """Matroska tags by stream copy. Idempotent: skipped when the tags already match."""
     ffmpeg, ffprobe = shutil.which("ffmpeg"), shutil.which("ffprobe")
@@ -125,13 +132,20 @@ def _write_webm(path, entry: dict) -> bool:
                            capture_output=True, text=True).stdout
     import json
     have = {k.lower(): v for k, v in (json.loads(probe or "{}").get("format", {}).get("tags") or {}).items()}
-    if all(have.get(k) == v for k, v in tags.items()):
+    # VP9 alpha lives in BlockAdditions and only shows if the video track keeps alpha_mode=1.
+    # -map_metadata -1 below strips stream tags too, so the flag must be set again explicitly.
+    alpha = _webm_has_alpha(ffmpeg, path)
+    flag = subprocess.run([ffprobe, "-v", "error", "-select_streams", "v:0", "-show_entries", "stream_tags=alpha_mode",
+                           "-of", "csv=p=0", str(path)], capture_output=True, text=True).stdout.strip()
+    if all(have.get(k) == v for k, v in tags.items()) and (not alpha or flag == "1"):
         return False
     tmp = Path(path).with_suffix(".tmp.webm")
     cmd = [ffmpeg, "-v", "error", "-y", "-i", str(path), "-map", "0", "-c", "copy", "-fflags", "+bitexact",
            "-map_metadata", "-1"]
     for k, v in tags.items():
         cmd += ["-metadata", f"{k}={v}"]
+    if alpha:
+        cmd += ["-metadata:s:v:0", "alpha_mode=1"]
     subprocess.run(cmd + [str(tmp)], check=True)
     tmp.replace(path)
     return True
