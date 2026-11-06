@@ -25,8 +25,7 @@ Metadata for every file is in `character.yaml`.
 
 - `radomir-keyart-01.webp`, `radomir-keyart-02.webp` (final toll scene): master art
 - `radomir-portrait.webp`: 1:1 portrait
-- `radomir-token-01` (wisps ring) and `radomir-token-02` (spin ring): animated tokens, each as `.webp` and `.webm` (use the `.webm` in Foundry, it shows animated WebP as a still frame)
-- `radomir-token-03.webp`: static token
-- `companions/`: Obol, the familiar (keyart, portrait, static and animated tokens)
+- `radomir-token`: animated token (wisps ring) as `.webm` (use in Foundry, it shows animated WebP as a still frame), `.webp`, and `.gif` (under 8 MB, for Discord); `radomir-token.png` is the static version
+- `companions/`: Obol, the familiar (keyart, portrait, `obol-token` as `.webm`/`.webp`/`.gif` plus static `.png`)
 - `summons/`: six thralls (`borrowed-*-01` to `-06`), stag, rabbit, singer and the reeds, each with keyart and portrait. Tokens are animated smoke-ring loops (`*-token-01`, `.webm` for Foundry, `.webp` preview); static fallbacks are `*-token-02.webp` (Borrowed has none). For the Borrowed prototype token use the wildcard `summons/borrowed-token-*.webm` with Randomize Wildcard Images on.
 - `fx/`: `life-tap.webp`, `inevitable-return.webp`, `thrall-strike.webp` (his magenta variant of the shared thrall strike icon), `release-thralls.webp` (macro icon: release all summons and thralls)

@@ -52,7 +52,7 @@ https://0utrider.github.io/dramatis/<path to file>
 Example:
 
 ```
-https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token-03.webp
+https://0utrider.github.io/dramatis/kingmaker/radomir/radomir-token.png
 ```
 
 ## Campaigns

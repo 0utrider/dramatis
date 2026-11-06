@@ -25,6 +25,7 @@ SOURCES = {"commissioned", "self", "stock"}
 CHARACTER_FIELDS = ("id", "name", "campaign", "system", "gm", "owner", "race", "class", "links", "summary")
 
 
+NOSTAMP_EXT = {".webm", ".gif", ".png"}  # token companions (video, GIF for Discord, static PNG): listed, not stamped
 VIDEO_EXT = ".webm"  # animated token companions: validated and listed, but not stamped (no EXIF/XMP in webm)
 
 
@@ -89,7 +90,7 @@ def main() -> int:
     char_dirs = {p.parent for p in yamls}
 
     # every published webp must live under a character folder (or the shared icons library)
-    for f in sorted([*ROOT.rglob("*.webp"), *ROOT.rglob("*" + VIDEO_EXT)]):
+    for f in sorted([*ROOT.rglob("*.webp"), *(f for e in NOSTAMP_EXT for f in ROOT.rglob("*" + e))]):
         if is_working(f) or ROOT / "icons" in f.parents:
             continue
         if not any(d in f.parents for d in char_dirs):
@@ -130,6 +131,7 @@ def main() -> int:
             if a.get("source") and a["source"] not in SOURCES:
                 errors.append(f"{rel_dir}/{f}: source must be one of {sorted(SOURCES)}")
             is_video = path.suffix == VIDEO_EXT
+            nostamp = path.suffix in NOSTAMP_EXT
             if is_video:
                 if not a.get("dimensions"):
                     errors.append(f"{rel_dir}/{f}: .webm needs 'dimensions' set by hand")
@@ -145,11 +147,11 @@ def main() -> int:
                 "path": f"{rel_dir}/{f}",
                 "url": f"{BASE_URL}/{rel_dir}/{f}",
             }
-            if not is_video:
+            if not nostamp:
                 stamp(path, {**entry, "license": a.get("license"), "owner": data.get("owner")})
             manifest.append(entry)
 
-        for f in sorted([*cdir.rglob("*.webp"), *cdir.rglob("*" + VIDEO_EXT)]):
+        for f in sorted([*cdir.rglob("*.webp"), *(f for e in NOSTAMP_EXT for f in cdir.rglob("*" + e))]):
             rel = f.relative_to(cdir).as_posix()
             if not is_working(f) and rel not in listed:
                 errors.append(f"{rel_dir}/{rel}: published file has no assets entry")
