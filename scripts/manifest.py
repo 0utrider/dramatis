@@ -29,8 +29,12 @@ VIDEO_EXT = ".webm"  # needs hand-set dimensions; stamped with Matroska tags (no
 PUBLISHED_EXT = (".webp", ".webm", ".gif", ".png")  # every one gets embedded metadata (see webpmeta.py)
 
 
+PRIVATE_TOP = {"av"}  # gitignored top-level dirs (Abomination Vaults work in progress): not validated or published
+
+
 def is_working(path: Path) -> bool:
-    return any(p.startswith("_") for p in path.relative_to(ROOT).parts)
+    parts = path.relative_to(ROOT).parts
+    return any(p.startswith("_") for p in parts) or parts[0] in PRIVATE_TOP
 
 
 def stamp(path: Path, entry: dict) -> None:
