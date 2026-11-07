@@ -31,7 +31,67 @@ assets:
   added: '2026-11-06'
   derived_from: smoke-keyart.webp
   dimensions: 1536x1536
-- file: smoke-token.webm
+- file: smoke-token-01.webm
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-heatsink
+  tags:
+  - soldier
+  - heavy-weapon
+  - plasma
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-07'
+  derived_from: smoke-keyart.webp
+  dimensions: 512x512
+- file: smoke-token-01.webp
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-heatsink
+  tags:
+  - soldier
+  - heavy-weapon
+  - plasma
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-07'
+  derived_from: smoke-keyart.webp
+  dimensions: 256x256
+- file: smoke-token-01.gif
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-heatsink
+  tags:
+  - soldier
+  - heavy-weapon
+  - plasma
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-07'
+  derived_from: smoke-keyart.webp
+  dimensions: 256x256
+- file: smoke-token-01.png
+  subject: smoke
+  category: character
+  type: token
+  variant: static
+  tags:
+  - soldier
+  - heavy-weapon
+  - plasma
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-07'
+  derived_from: smoke-keyart.webp
+  dimensions: 512x512
+- file: smoke-token-02.webm
   subject: smoke
   category: character
   type: token
@@ -44,7 +104,7 @@ assets:
   added: '2026-11-06'
   derived_from: smoke-keyart.webp
   dimensions: 512x512
-- file: smoke-token.webp
+- file: smoke-token-02.webp
   subject: smoke
   category: character
   type: token
@@ -57,7 +117,7 @@ assets:
   added: '2026-11-06'
   derived_from: smoke-keyart.webp
   dimensions: 256x256
-- file: smoke-token.gif
+- file: smoke-token-02.gif
   subject: smoke
   category: character
   type: token
@@ -70,7 +130,7 @@ assets:
   added: '2026-11-06'
   derived_from: smoke-keyart.webp
   dimensions: 256x256
-- file: smoke-token.png
+- file: smoke-token-02.png
   subject: smoke
   category: character
   type: token
