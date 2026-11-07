@@ -67,35 +67,11 @@ https://0utrider.github.io/dramatis/kingmaker/radomir/summons/singer-token-01.we
 https://0utrider.github.io/dramatis/kingmaker/radomir/summons/reeds-token-01.webm
 ```
 
-`summons/borrowed-token-01.webm`
+`summons/borrowed-token-01.webm` to `-06.webm`
 ```
 https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-01.webm
 ```
-
-`summons/borrowed-token-02.webm`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-02.webm
-```
-
-`summons/borrowed-token-03.webm`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-03.webm
-```
-
-`summons/borrowed-token-04.webm`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-04.webm
-```
-
-`summons/borrowed-token-05.webm`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-05.webm
-```
-
-`summons/borrowed-token-06.webm`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-06.webm
-```
+Numbered 01 to 06: change the number in the URL for the others.
 
 ### Portraits (.webp)
 
@@ -129,34 +105,10 @@ https://0utrider.github.io/dramatis/kingmaker/radomir/summons/singer-portrait.we
 https://0utrider.github.io/dramatis/kingmaker/radomir/summons/reeds-portrait.webp
 ```
 
-`summons/borrowed-portrait-01.webp`
+`summons/borrowed-portrait-01.webp` to `-06.webp`
 ```
 https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-portrait-01.webp
 ```
-
-`summons/borrowed-portrait-02.webp`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-portrait-02.webp
-```
-
-`summons/borrowed-portrait-03.webp`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-portrait-03.webp
-```
-
-`summons/borrowed-portrait-04.webp`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-portrait-04.webp
-```
-
-`summons/borrowed-portrait-05.webp`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-portrait-05.webp
-```
-
-`summons/borrowed-portrait-06.webp`
-```
-https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-portrait-06.webp
-```
+Numbered 01 to 06: change the number in the URL for the others.
 
 <!-- links:end -->

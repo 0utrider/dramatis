@@ -6,6 +6,7 @@ Run from anywhere. Exits non-zero if validation fails. Embeds EXIF/XMP (repo URL
 Requires Pillow and PyYAML.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -104,8 +105,25 @@ def write_links(cdir: Path, entries: list) -> None:
         if not picked:
             continue
         lines += [f"### {title}", ""]
+        seq = {}
         for e in picked:
-            lines += [f"`{e['file']}`", "```", e["url"], "```", ""]
+            m = re.match(r"(.+)-(\d\d)(\.\w+)$", e["file"])
+            if m:
+                seq.setdefault((m[1], m[3]), []).append((m[2], e))
+        done = set()
+        for e in picked:
+            m = re.match(r"(.+)-(\d\d)(\.\w+)$", e["file"])
+            grp = seq.get((m[1], m[3])) if m else None
+            if grp and len(grp) > 1:
+                if (m[1], m[3]) in done:
+                    continue
+                done.add((m[1], m[3]))
+                nums = sorted(n for n, _ in grp)
+                first = min(grp)[1]
+                lines += [f"`{m[1]}-{nums[0]}{m[3]}` to `-{nums[-1]}{m[3]}`", "```", first["url"], "```",
+                          f"Numbered {nums[0]} to {nums[-1]}: change the number in the URL for the others.", ""]
+            else:
+                lines += [f"`{e['file']}`", "```", e["url"], "```", ""]
     lines.append(LINKS_END)
     block = "\n".join(lines) + "\n"
     text = readme.read_text(encoding="utf-8")
