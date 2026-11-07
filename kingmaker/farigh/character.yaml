@@ -36,8 +36,8 @@ assets:
   subject: farigh
   category: character
   type: token
-  dimensions: 512x512
-  variant: animated-accretion
+  dimensions: 1332x1332
+  variant: animated-full-2.6x
   tags:
   - novian
   - black-hole
@@ -49,7 +49,7 @@ assets:
   subject: farigh
   category: character
   type: token
-  variant: animated-accretion
+  variant: animated-full-2.6x
   tags:
   - novian
   - black-hole
@@ -57,12 +57,12 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: farigh-keyart.webp
-  dimensions: 256x256
+  dimensions: 666x666
 - file: farigh-token.gif
   subject: farigh
   category: character
   type: token
-  variant: animated-accretion
+  variant: animated-full-2.6x
   tags:
   - novian
   - black-hole
@@ -70,7 +70,7 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: farigh-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: farigh-token.png
   subject: farigh
   category: character
@@ -83,4 +83,4 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: farigh-keyart.webp
-  dimensions: 512x512
+  dimensions: 1332x1332

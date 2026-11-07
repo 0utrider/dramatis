@@ -234,8 +234,8 @@
     "subject": "farigh",
     "category": "character",
     "type": "token",
-    "dimensions": "512x512",
-    "variant": "animated-accretion",
+    "dimensions": "1332x1332",
+    "variant": "animated-full-2.6x",
     "tags": [
       "novian",
       "black-hole"
@@ -262,7 +262,7 @@
     "subject": "farigh",
     "category": "character",
     "type": "token",
-    "variant": "animated-accretion",
+    "variant": "animated-full-2.6x",
     "tags": [
       "novian",
       "black-hole"
@@ -271,7 +271,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "farigh-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "666x666",
     "path": "kingmaker/farigh/farigh-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/farigh/farigh-token.webp"
   },
@@ -290,7 +290,7 @@
     "subject": "farigh",
     "category": "character",
     "type": "token",
-    "variant": "animated-accretion",
+    "variant": "animated-full-2.6x",
     "tags": [
       "novian",
       "black-hole"
@@ -299,7 +299,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "farigh-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/farigh/farigh-token.gif",
     "url": "https://0utrider.github.io/dramatis/kingmaker/farigh/farigh-token.gif"
   },
@@ -327,7 +327,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "farigh-keyart.webp",
-    "dimensions": "512x512",
+    "dimensions": "1332x1332",
     "path": "kingmaker/farigh/farigh-token.png",
     "url": "https://0utrider.github.io/dramatis/kingmaker/farigh/farigh-token.png"
   },
