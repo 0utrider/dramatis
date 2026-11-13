@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE_URL = "https://0utrider.github.io/dramatis"
 FOLDER_CATEGORY = {"": "character", "companions": "companion", "summons": "summon", "fx": "fx"}
 TYPES = {"keyart", "portrait", "token", "bust", "fx"}
+TILE_FOLDER_CATEGORY = {"bloody-tendrils": "tile"}  # add one entry per tile set folder
 ICON_FOLDER_CATEGORY = {"abilities": "ability", "spells": "spell", "equipment": "equipment"}
 SYSTEMS = {"pf2e", "sf2e", "pf1e"}
 SOURCES = {"commissioned", "self", "stock"}
@@ -42,48 +43,49 @@ def stamp(path: Path, entry: dict) -> None:
     webpmeta.write_meta(path, exif, xmp, entry)
 
 
-def check_icons(errors: list, manifest: list) -> None:
-    """Shared icon library: icons/icons.yaml lists every webp under icons/<abilities|spells|equipment>/."""
-    idir, ypath = ROOT / "icons", ROOT / "icons" / "icons.yaml"
+def check_icons(errors: list, manifest: list, coll: str = "icons", folders: dict = None, kind: str = "icon") -> None:
+    """Shared libraries: <coll>/<coll>.yaml lists every webp under <coll>/<folder>/ (icons, tiles)."""
+    folders = folders or ICON_FOLDER_CATEGORY
+    idir, ypath = ROOT / coll, ROOT / coll / f"{coll}.yaml"
     files = sorted(f for f in idir.rglob("*.webp") if not is_working(f)) if idir.is_dir() else []
     if not ypath.is_file():
-        errors += [f"{f.relative_to(ROOT)}: no icons/icons.yaml" for f in files]
+        errors += [f"{f.relative_to(ROOT)}: no {coll}/{coll}.yaml" for f in files]
         return
     data = yaml.safe_load(ypath.read_text(encoding="utf-8")) or {}
     listed, changed = set(), False
     for a in data.get("assets") or []:
         f = a.get("file", "")
         if f in listed:
-            errors.append(f"icons/{f}: listed more than once")
+            errors.append(f"{coll}/{f}: listed more than once")
         listed.add(f)
         path = idir / f
         if not path.is_file():
-            errors.append(f"icons/{f}: listed in assets but file is missing")
+            errors.append(f"{coll}/{f}: listed in assets but file is missing")
             continue
         folder = Path(f).parts[0]
-        want = ICON_FOLDER_CATEGORY.get(folder)
+        want = folders.get(folder)
         if want is None:
-            errors.append(f"icons/{f}: unknown subfolder '{folder}'")
+            errors.append(f"{coll}/{f}: unknown subfolder '{folder}'")
         elif a.get("category") != want:
-            errors.append(f"icons/{f}: category '{a.get('category')}' must be '{want}' for this folder")
-        if a.get("type") != "icon":
-            errors.append(f"icons/{f}: type must be 'icon'")
+            errors.append(f"{coll}/{f}: category '{a.get('category')}' must be '{want}' for this folder")
+        if a.get("type") != kind:
+            errors.append(f"{coll}/{f}: type must be '{kind}'")
         if not a.get("subject"):
-            errors.append(f"icons/{f}: missing subject")
+            errors.append(f"{coll}/{f}: missing subject")
         if a.get("source") and a["source"] not in SOURCES:
-            errors.append(f"icons/{f}: source must be one of {sorted(SOURCES)}")
+            errors.append(f"{coll}/{f}: source must be one of {sorted(SOURCES)}")
         with Image.open(path) as im:
             dims = f"{im.width}x{im.height}"
         if a.get("dimensions") != dims:
             a["dimensions"] = dims
             changed = True
-        entry = {"collection": "icons", **a, "path": f"icons/{f}", "url": f"{BASE_URL}/icons/{f}"}
+        entry = {"collection": coll, **a, "path": f"{coll}/{f}", "url": f"{BASE_URL}/{coll}/{f}"}
         stamp(path, {**entry, "owner": data.get("owner")})
         manifest.append(entry)
     for f in files:
         rel = f.relative_to(idir).as_posix()
         if rel not in listed:
-            errors.append(f"icons/{rel}: published file has no assets entry")
+            errors.append(f"{coll}/{rel}: published file has no assets entry")
     if changed:
         ypath.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=120), encoding="utf-8")
 
@@ -143,7 +145,7 @@ def main() -> int:
 
     # every published webp must live under a character folder (or the shared icons library)
     for f in sorted([*ROOT.rglob("*.webp"), *(f for e in PUBLISHED_EXT[1:] for f in ROOT.rglob("*" + e))]):
-        if is_working(f) or ROOT / "icons" in f.parents:
+        if is_working(f) or ROOT / "icons" in f.parents or ROOT / "tiles" in f.parents:
             continue
         if not any(d in f.parents for d in char_dirs):
             errors.append(f"{f.relative_to(ROOT)}: not inside a character folder with character.yaml")
@@ -215,6 +217,7 @@ def main() -> int:
             )
 
     check_icons(errors, manifest)
+    check_icons(errors, manifest, "tiles", TILE_FOLDER_CATEGORY, "tile")
 
     if errors:
         print("manifest: validation failed", file=sys.stderr)
