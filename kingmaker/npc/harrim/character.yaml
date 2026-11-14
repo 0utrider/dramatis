@@ -108,7 +108,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
-  dimensions: 512x512
+  dimensions: 640x640
 - file: harrim-rainbow-token.webp
   subject: harrim
   category: character
@@ -127,7 +127,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
-  dimensions: 256x256
+  dimensions: 320x320
 - file: harrim-rainbow-token.png
   subject: harrim
   category: character
@@ -146,7 +146,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
-  dimensions: 512x512
+  dimensions: 640x640
 - file: harrim-rainbow-token-shades.png
   subject: harrim
   category: character
@@ -165,4 +165,4 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
-  dimensions: 512x512
+  dimensions: 640x640

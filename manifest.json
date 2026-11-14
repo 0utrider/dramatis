@@ -838,7 +838,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "harrim-keyart.webp",
-    "dimensions": "512x512",
+    "dimensions": "640x640",
     "path": "kingmaker/npc/harrim/harrim-rainbow-token.webm",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-rainbow-token.webm"
   },
@@ -872,7 +872,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "harrim-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "320x320",
     "path": "kingmaker/npc/harrim/harrim-rainbow-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-rainbow-token.webp"
   },
@@ -906,7 +906,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "harrim-keyart.webp",
-    "dimensions": "512x512",
+    "dimensions": "640x640",
     "path": "kingmaker/npc/harrim/harrim-rainbow-token.png",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-rainbow-token.png"
   },
@@ -940,7 +940,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "harrim-keyart.webp",
-    "dimensions": "512x512",
+    "dimensions": "640x640",
     "path": "kingmaker/npc/harrim/harrim-rainbow-token-shades.png",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-rainbow-token-shades.png"
   },

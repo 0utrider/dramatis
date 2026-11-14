@@ -2,7 +2,7 @@
 
 Major NPCs in Emerald's Kingmaker game, reimagined by Emerald (GM). Each has its own folder with a README and `character.yaml`.
 
-One block per NPC: animated token (`.webm`, use in Foundry), portrait, keyart, and the full-scene loop (`.mp4`, plays inline in Discord). Harrim also has a spinoff rainbow token.
+One block per NPC: animated token (`.webm`, use in Foundry), portrait, keyart, and the full-scene loop (`.mp4`, plays inline in Discord). Harrim also has a spinoff rainbow token: set its token Scale to 1.25 in Foundry.
 
 ## Amiri
 
