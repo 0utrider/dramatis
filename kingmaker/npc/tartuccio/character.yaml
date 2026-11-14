@@ -1,0 +1,87 @@
+id: tartuccio
+name: Tartuccio
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Gnome
+summary: Gnome villain in plum velvet, loyal to Irovetti of Pitax.
+assets:
+- file: tartuccio-keyart.webp
+  subject: tartuccio
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - npc
+  - gnome
+  - villain
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: tartuccio-portrait.webp
+  subject: tartuccio
+  category: character
+  type: portrait
+  tags:
+  - npc
+  - gnome
+  - villain
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: tartuccio-keyart.webp
+  dimensions: 1536x1536
+- file: tartuccio-token.webm
+  subject: tartuccio
+  category: character
+  type: token
+  variant: animated-treasury
+  tags:
+  - npc
+  - gnome
+  - villain
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: tartuccio-keyart.webp
+  dimensions: 512x512
+- file: tartuccio-token.webp
+  subject: tartuccio
+  category: character
+  type: token
+  variant: animated-treasury
+  tags:
+  - npc
+  - gnome
+  - villain
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: tartuccio-keyart.webp
+  dimensions: 256x256
+- file: tartuccio-token.png
+  subject: tartuccio
+  category: character
+  type: token
+  variant: static
+  tags:
+  - npc
+  - gnome
+  - villain
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: tartuccio-keyart.webp
+  dimensions: 512x512

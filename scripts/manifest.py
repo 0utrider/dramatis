@@ -140,7 +140,7 @@ def write_links(cdir: Path, entries: list) -> None:
 
 def main() -> int:
     errors, manifest = [], []
-    yamls = sorted(p for p in ROOT.glob("*/*/character.yaml") if not is_working(p))
+    yamls = sorted(p for p in [*ROOT.glob("*/*/character.yaml"), *ROOT.glob("*/npc/*/character.yaml")] if not is_working(p))
     char_dirs = {p.parent for p in yamls}
 
     # every published webp must live under a character folder (or the shared icons library)

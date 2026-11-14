@@ -4,6 +4,7 @@ campaign: Kingmaker
 system: pf2e
 gm: Emerald
 owner: 0utrider
+race: Human
 class: Soldier
 summary: Starfinder 2e soldier, a heavy gunner in olive-bronze power armor.
 assets:
@@ -142,4 +143,88 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: smoke-keyart.webp
+  dimensions: 512x512
+- file: smoke-keyart-02.webp
+  subject: smoke
+  category: character
+  type: keyart
+  variant: feast-beats
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-13'
+  dimensions: 2752x1536
+- file: smoke-portrait-02.webp
+  subject: smoke
+  category: character
+  type: portrait
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-13'
+  derived_from: smoke-keyart-02.webp
+  dimensions: 1536x1536
+- file: smoke-token-03.webm
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-headphones
+  tags:
+  - soldier
+  - starfinder
+  - headphones
+  - humor
+  source: self
+  license: private-use
+  added: '2026-11-13'
+  derived_from: smoke-keyart-02.webp
+  dimensions: 512x512
+- file: smoke-token-03.webp
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-headphones
+  tags:
+  - soldier
+  - starfinder
+  - headphones
+  - humor
+  source: self
+  license: private-use
+  added: '2026-11-13'
+  derived_from: smoke-keyart-02.webp
+  dimensions: 256x256
+- file: smoke-token-03.gif
+  subject: smoke
+  category: character
+  type: token
+  variant: animated-headphones
+  tags:
+  - soldier
+  - starfinder
+  - headphones
+  - humor
+  source: self
+  license: private-use
+  added: '2026-11-13'
+  derived_from: smoke-keyart-02.webp
+  dimensions: 256x256
+- file: smoke-token-03.png
+  subject: smoke
+  category: character
+  type: token
+  variant: static
+  tags:
+  - soldier
+  - starfinder
+  - headphones
+  - humor
+  source: self
+  license: private-use
+  added: '2026-11-13'
+  derived_from: smoke-keyart-02.webp
   dimensions: 512x512

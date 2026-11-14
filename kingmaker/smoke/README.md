@@ -26,17 +26,22 @@ Foundry URLs for the animated tokens (`.webm`) and portraits (`.webp`). Each blo
 
 ### Tokens (.webm)
 
-`smoke-token-01.webm` to `-02.webm`
+`smoke-token-01.webm` to `-03.webm`
 ```
 https://0utrider.github.io/dramatis/kingmaker/smoke/smoke-token-01.webm
 ```
-Numbered 01 to 02: change the number in the URL for the others.
+Numbered 01 to 03: change the number in the URL for the others.
 
 ### Portraits (.webp)
 
 `smoke-portrait.webp`
 ```
 https://0utrider.github.io/dramatis/kingmaker/smoke/smoke-portrait.webp
+```
+
+`smoke-portrait-02.webp`
+```
+https://0utrider.github.io/dramatis/kingmaker/smoke/smoke-portrait-02.webp
 ```
 
 <!-- links:end -->

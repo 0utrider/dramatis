@@ -1,0 +1,87 @@
+id: amiri
+name: Amiri
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+class: Barbarian
+summary: Barbarian with a hull-plate greatsword, stenciled NCC-412.
+assets:
+- file: amiri-keyart.webp
+  subject: amiri
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - barbarian
+  - npc
+  - starfinder
+  - greatsword
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: amiri-portrait.webp
+  subject: amiri
+  category: character
+  type: portrait
+  tags:
+  - barbarian
+  - npc
+  - starfinder
+  - greatsword
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: amiri-keyart.webp
+  dimensions: 1536x1536
+- file: amiri-token.webm
+  subject: amiri
+  category: character
+  type: token
+  variant: animated-hull-plate
+  tags:
+  - barbarian
+  - npc
+  - starfinder
+  - greatsword
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: amiri-keyart.webp
+  dimensions: 512x512
+- file: amiri-token.webp
+  subject: amiri
+  category: character
+  type: token
+  variant: animated-hull-plate
+  tags:
+  - barbarian
+  - npc
+  - starfinder
+  - greatsword
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: amiri-keyart.webp
+  dimensions: 256x256
+- file: amiri-token.png
+  subject: amiri
+  category: character
+  type: token
+  variant: static
+  tags:
+  - barbarian
+  - npc
+  - starfinder
+  - greatsword
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: amiri-keyart.webp
+  dimensions: 512x512

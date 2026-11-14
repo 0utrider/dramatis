@@ -1,0 +1,87 @@
+id: jamandi
+name: Jamandi Aldori
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Half-Elf
+summary: Half-elf noble of the Aldori manor, with a curved dueling blade.
+assets:
+- file: jamandi-keyart.webp
+  subject: jamandi
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - npc
+  - half-elf
+  - noble
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: jamandi-portrait.webp
+  subject: jamandi
+  category: character
+  type: portrait
+  tags:
+  - npc
+  - half-elf
+  - noble
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jamandi-keyart.webp
+  dimensions: 1536x1536
+- file: jamandi-token.webm
+  subject: jamandi
+  category: character
+  type: token
+  variant: animated-dueling-blade
+  tags:
+  - npc
+  - half-elf
+  - noble
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jamandi-keyart.webp
+  dimensions: 512x512
+- file: jamandi-token.webp
+  subject: jamandi
+  category: character
+  type: token
+  variant: animated-dueling-blade
+  tags:
+  - npc
+  - half-elf
+  - noble
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jamandi-keyart.webp
+  dimensions: 256x256
+- file: jamandi-token.png
+  subject: jamandi
+  category: character
+  type: token
+  variant: static
+  tags:
+  - npc
+  - half-elf
+  - noble
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jamandi-keyart.webp
+  dimensions: 512x512

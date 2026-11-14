@@ -1,0 +1,87 @@
+id: valerie
+name: Valerie
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Human
+summary: Human with chopped hair, battered armor and a plasma knife.
+assets:
+- file: valerie-keyart.webp
+  subject: valerie
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - npc
+  - starfinder
+  - plasma
+  - armor
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: valerie-portrait.webp
+  subject: valerie
+  category: character
+  type: portrait
+  tags:
+  - npc
+  - starfinder
+  - plasma
+  - armor
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: valerie-keyart.webp
+  dimensions: 1536x1536
+- file: valerie-token.webm
+  subject: valerie
+  category: character
+  type: token
+  variant: animated-shield-rim
+  tags:
+  - npc
+  - starfinder
+  - plasma
+  - armor
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: valerie-keyart.webp
+  dimensions: 512x512
+- file: valerie-token.webp
+  subject: valerie
+  category: character
+  type: token
+  variant: animated-shield-rim
+  tags:
+  - npc
+  - starfinder
+  - plasma
+  - armor
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: valerie-keyart.webp
+  dimensions: 256x256
+- file: valerie-token.png
+  subject: valerie
+  category: character
+  type: token
+  variant: static
+  tags:
+  - npc
+  - starfinder
+  - plasma
+  - armor
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: valerie-keyart.webp
+  dimensions: 512x512

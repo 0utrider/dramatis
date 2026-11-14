@@ -1,0 +1,82 @@
+id: varn
+name: Maegar Varn
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Human
+summary: Hammy human frontier cowboy with a sword at his hip.
+assets:
+- file: varn-keyart.webp
+  subject: varn
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - npc
+  - starfinder
+  - cowboy
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: varn-portrait.webp
+  subject: varn
+  category: character
+  type: portrait
+  tags:
+  - npc
+  - starfinder
+  - cowboy
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: varn-keyart.webp
+  dimensions: 1536x1536
+- file: varn-token.webm
+  subject: varn
+  category: character
+  type: token
+  variant: animated-lariat
+  tags:
+  - npc
+  - starfinder
+  - cowboy
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: varn-keyart.webp
+  dimensions: 512x512
+- file: varn-token.webp
+  subject: varn
+  category: character
+  type: token
+  variant: animated-lariat
+  tags:
+  - npc
+  - starfinder
+  - cowboy
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: varn-keyart.webp
+  dimensions: 256x256
+- file: varn-token.png
+  subject: varn
+  category: character
+  type: token
+  variant: static
+  tags:
+  - npc
+  - starfinder
+  - cowboy
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: varn-keyart.webp
+  dimensions: 512x512

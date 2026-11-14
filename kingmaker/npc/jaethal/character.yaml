@@ -1,0 +1,82 @@
+id: jaethal
+name: Jaethal
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Elf
+summary: Elegant elf in a black and gold coat, on the run.
+assets:
+- file: jaethal-keyart.webp
+  subject: jaethal
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - npc
+  - elf
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: jaethal-portrait.webp
+  subject: jaethal
+  category: character
+  type: portrait
+  tags:
+  - npc
+  - elf
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jaethal-keyart.webp
+  dimensions: 1536x1536
+- file: jaethal-token.webm
+  subject: jaethal
+  category: character
+  type: token
+  variant: animated-lacquer
+  tags:
+  - npc
+  - elf
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jaethal-keyart.webp
+  dimensions: 512x512
+- file: jaethal-token.webp
+  subject: jaethal
+  category: character
+  type: token
+  variant: animated-lacquer
+  tags:
+  - npc
+  - elf
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jaethal-keyart.webp
+  dimensions: 256x256
+- file: jaethal-token.png
+  subject: jaethal
+  category: character
+  type: token
+  variant: static
+  tags:
+  - npc
+  - elf
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: jaethal-keyart.webp
+  dimensions: 512x512

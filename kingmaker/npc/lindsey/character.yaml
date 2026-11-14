@@ -1,0 +1,88 @@
+id: lindsey
+name: Lindsey
+campaign: Kingmaker
+system: pf2e
+gm: Emerald
+owner: 0utrider
+race: Halfling
+class: Envoy
+summary: Halfling envoy in paint-splatter fatigues with a speaker backpack.
+assets:
+- file: lindsey-keyart.webp
+  subject: lindsey
+  category: character
+  type: keyart
+  variant: default
+  tags:
+  - envoy
+  - npc
+  - starfinder
+  - music
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 2752x1536
+- file: lindsey-portrait.webp
+  subject: lindsey
+  category: character
+  type: portrait
+  tags:
+  - envoy
+  - npc
+  - starfinder
+  - music
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: lindsey-keyart.webp
+  dimensions: 1536x1536
+- file: lindsey-token.webm
+  subject: lindsey
+  category: character
+  type: token
+  variant: animated-sheet-music
+  tags:
+  - envoy
+  - npc
+  - starfinder
+  - music
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: lindsey-keyart.webp
+  dimensions: 512x512
+- file: lindsey-token.webp
+  subject: lindsey
+  category: character
+  type: token
+  variant: animated-sheet-music
+  tags:
+  - envoy
+  - npc
+  - starfinder
+  - music
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: lindsey-keyart.webp
+  dimensions: 256x256
+- file: lindsey-token.png
+  subject: lindsey
+  category: character
+  type: token
+  variant: static
+  tags:
+  - envoy
+  - npc
+  - starfinder
+  - music
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: lindsey-keyart.webp
+  dimensions: 512x512
