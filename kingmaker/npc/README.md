@@ -2,7 +2,7 @@
 
 Major NPCs in Emerald's Kingmaker game, reimagined by Emerald (GM). Each has its own folder with a README and `character.yaml`.
 
-One block per NPC: animated token (`.webm`, use in Foundry), portrait, keyart, and the full-scene loop (`.mp4`, plays inline in Discord).
+One block per NPC: animated token (`.webm`, use in Foundry), portrait, keyart, and the full-scene loop (`.mp4`, plays inline in Discord). Harrim also has a spinoff rainbow token.
 
 ## Amiri
 
@@ -17,6 +17,7 @@ https://0utrider.github.io/dramatis/kingmaker/npc/amiri/amiri-loop.mp4
 
 ```
 https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-token.webm
+https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-rainbow-token.webm
 https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-portrait.webp
 https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-keyart.webp
 https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-loop.mp4

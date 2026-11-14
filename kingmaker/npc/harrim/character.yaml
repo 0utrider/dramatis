@@ -90,3 +90,79 @@ assets:
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
   dimensions: 512x512
+- file: harrim-rainbow-token.webm
+  subject: harrim
+  category: character
+  type: token
+  variant: animated-rainbow-unicorn
+  tags:
+  - npc
+  - dwarf
+  - power-armor
+  - shotgun
+  - starfinder
+  - humor
+  - rainbow
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: harrim-keyart.webp
+  dimensions: 512x512
+- file: harrim-rainbow-token.webp
+  subject: harrim
+  category: character
+  type: token
+  variant: animated-rainbow-unicorn
+  tags:
+  - npc
+  - dwarf
+  - power-armor
+  - shotgun
+  - starfinder
+  - humor
+  - rainbow
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: harrim-keyart.webp
+  dimensions: 256x256
+- file: harrim-rainbow-token.png
+  subject: harrim
+  category: character
+  type: token
+  variant: static
+  tags:
+  - npc
+  - dwarf
+  - power-armor
+  - shotgun
+  - starfinder
+  - humor
+  - rainbow
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: harrim-keyart.webp
+  dimensions: 512x512
+- file: harrim-rainbow-token-shades.png
+  subject: harrim
+  category: character
+  type: token
+  variant: static-shades
+  tags:
+  - npc
+  - dwarf
+  - power-armor
+  - shotgun
+  - starfinder
+  - humor
+  - rainbow
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  derived_from: harrim-keyart.webp
+  dimensions: 512x512
