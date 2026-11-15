@@ -57,7 +57,7 @@ assets:
   subject: jamandi
   category: character
   type: token
-  variant: animated-dueling-blade
+  variant: static
   tags:
   - npc
   - half-elf
@@ -68,7 +68,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: jamandi-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: jamandi-token.png
   subject: jamandi
   category: character

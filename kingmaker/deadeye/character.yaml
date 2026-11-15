@@ -48,7 +48,7 @@ assets:
   subject: deadeye
   category: character
   type: token
-  variant: animated-reticle
+  variant: static
   tags:
   - operative
   - starfinder
@@ -56,7 +56,7 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: deadeye-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: deadeye-token.gif
   subject: deadeye
   category: character

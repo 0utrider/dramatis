@@ -57,7 +57,7 @@ assets:
   subject: valerie
   category: character
   type: token
-  variant: animated-shield-rim
+  variant: static
   tags:
   - npc
   - starfinder
@@ -68,7 +68,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: valerie-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: valerie-token.png
   subject: valerie
   category: character

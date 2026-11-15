@@ -96,7 +96,7 @@
     "subject": "deadeye",
     "category": "character",
     "type": "token",
-    "variant": "animated-reticle",
+    "variant": "static",
     "tags": [
       "operative",
       "starfinder"
@@ -105,7 +105,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "deadeye-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/deadeye/deadeye-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/deadeye/deadeye-token.webp"
   },
@@ -262,7 +262,7 @@
     "subject": "farigh",
     "category": "character",
     "type": "token",
-    "variant": "animated-full-2.6x",
+    "variant": "static",
     "tags": [
       "novian",
       "black-hole"
@@ -271,7 +271,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "farigh-keyart.webp",
-    "dimensions": "666x666",
+    "dimensions": "1332x1332",
     "path": "kingmaker/farigh/farigh-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/farigh/farigh-token.webp"
   },
@@ -428,7 +428,7 @@
     "subject": "fortune",
     "category": "character",
     "type": "token",
-    "variant": "animated-chip",
+    "variant": "static",
     "tags": [
       "envoy",
       "starfinder"
@@ -437,7 +437,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "fortune-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/fortune/fortune-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/fortune/fortune-token.webp"
   },
@@ -603,7 +603,7 @@
     "subject": "amiri",
     "category": "character",
     "type": "token",
-    "variant": "animated-hull-plate",
+    "variant": "static",
     "tags": [
       "barbarian",
       "npc",
@@ -615,7 +615,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "amiri-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/amiri/amiri-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/amiri/amiri-token.webp"
   },
@@ -759,7 +759,7 @@
     "subject": "harrim",
     "category": "character",
     "type": "token",
-    "variant": "animated-rusted-iron",
+    "variant": "static",
     "tags": [
       "npc",
       "dwarf",
@@ -772,7 +772,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "harrim-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/harrim/harrim-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-token.webp"
   },
@@ -857,7 +857,7 @@
     "subject": "harrim",
     "category": "character",
     "type": "token",
-    "variant": "animated-rainbow-unicorn",
+    "variant": "static",
     "tags": [
       "npc",
       "dwarf",
@@ -872,7 +872,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "harrim-keyart.webp",
-    "dimensions": "320x320",
+    "dimensions": "640x640",
     "path": "kingmaker/npc/harrim/harrim-rainbow-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/harrim/harrim-rainbow-token.webp"
   },
@@ -1047,7 +1047,7 @@
     "subject": "jaethal",
     "category": "character",
     "type": "token",
-    "variant": "animated-lacquer",
+    "variant": "static",
     "tags": [
       "npc",
       "elf",
@@ -1058,7 +1058,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "jaethal-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/jaethal/jaethal-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/jaethal/jaethal-token.webp"
   },
@@ -1198,7 +1198,7 @@
     "subject": "jamandi",
     "category": "character",
     "type": "token",
-    "variant": "animated-dueling-blade",
+    "variant": "static",
     "tags": [
       "npc",
       "half-elf",
@@ -1210,7 +1210,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "jamandi-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/jamandi/jamandi-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/jamandi/jamandi-token.webp"
   },
@@ -1351,7 +1351,7 @@
     "subject": "lindsey",
     "category": "character",
     "type": "token",
-    "variant": "animated-sheet-music",
+    "variant": "static",
     "tags": [
       "envoy",
       "npc",
@@ -1363,7 +1363,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "lindsey-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/lindsey/lindsey-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/lindsey/lindsey-token.webp"
   },
@@ -1504,7 +1504,7 @@
     "subject": "tartuccio",
     "category": "character",
     "type": "token",
-    "variant": "animated-treasury",
+    "variant": "static",
     "tags": [
       "npc",
       "gnome",
@@ -1516,7 +1516,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "tartuccio-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/tartuccio/tartuccio-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/tartuccio/tartuccio-token.webp"
   },
@@ -1657,7 +1657,7 @@
     "subject": "valerie",
     "category": "character",
     "type": "token",
-    "variant": "animated-shield-rim",
+    "variant": "static",
     "tags": [
       "npc",
       "starfinder",
@@ -1669,7 +1669,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "valerie-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/valerie/valerie-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/valerie/valerie-token.webp"
   },
@@ -1807,7 +1807,7 @@
     "subject": "varn",
     "category": "character",
     "type": "token",
-    "variant": "animated-lariat",
+    "variant": "static",
     "tags": [
       "npc",
       "starfinder",
@@ -1818,7 +1818,7 @@
     "license": "private-use",
     "added": "2026-11-14",
     "derived_from": "varn-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/npc/varn/varn-token.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/npc/varn/varn-token.webp"
   },
@@ -1962,7 +1962,7 @@
     "subject": "radomir",
     "category": "character",
     "type": "token",
-    "variant": "animated-wisps",
+    "variant": "static",
     "tags": [
       "necromancer",
       "human"
@@ -2149,7 +2149,7 @@
     "category": "companion",
     "subtype": "familiar",
     "type": "token",
-    "variant": "animated-wisps",
+    "variant": "static",
     "tags": [
       "cat",
       "undead",
@@ -2372,7 +2372,7 @@
     "subject": "stag",
     "category": "summon",
     "type": "token",
-    "variant": "animated-smoke-brass",
+    "variant": "static",
     "tags": [
       "spirit",
       "stag",
@@ -2380,7 +2380,7 @@
     ],
     "source": "self",
     "license": "private-use",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "derived_from": "summons/stag-keyart.webp",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/stag-token-01.webp",
@@ -2525,14 +2525,14 @@
     "subject": "rabbit",
     "category": "summon",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "spirit",
       "rabbit"
     ],
     "source": "self",
     "license": "private-use",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "derived_from": "summons/rabbit-keyart.webp",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/rabbit-token-01.webp",
@@ -2679,7 +2679,7 @@
     "subject": "singer",
     "category": "summon",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "spirit",
       "singer",
@@ -2687,7 +2687,7 @@
     ],
     "source": "self",
     "license": "private-use",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "derived_from": "summons/singer-keyart.webp",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/singer-token-01.webp",
@@ -2839,7 +2839,7 @@
     "category": "summon",
     "subtype": "reed",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "spirit",
       "reeds",
@@ -2847,7 +2847,7 @@
     ],
     "source": "self",
     "license": "private-use",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "derived_from": "summons/reeds-keyart.webp",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/reeds-token-01.webp",
@@ -3516,7 +3516,7 @@
     "category": "summon",
     "subtype": "thrall",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "ghost",
       "thrall"
@@ -3524,7 +3524,7 @@
     "source": "self",
     "license": "private-use",
     "derived_from": "summons/borrowed-keyart-01.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/borrowed-token-01.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-01.webp"
@@ -3580,7 +3580,7 @@
     "category": "summon",
     "subtype": "thrall",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "ghost",
       "thrall"
@@ -3588,7 +3588,7 @@
     "source": "self",
     "license": "private-use",
     "derived_from": "summons/borrowed-keyart-02.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/borrowed-token-02.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-02.webp"
@@ -3644,7 +3644,7 @@
     "category": "summon",
     "subtype": "thrall",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "ghost",
       "thrall"
@@ -3652,7 +3652,7 @@
     "source": "self",
     "license": "private-use",
     "derived_from": "summons/borrowed-keyart-03.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/borrowed-token-03.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-03.webp"
@@ -3708,7 +3708,7 @@
     "category": "summon",
     "subtype": "thrall",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "ghost",
       "thrall"
@@ -3716,7 +3716,7 @@
     "source": "self",
     "license": "private-use",
     "derived_from": "summons/borrowed-keyart-04.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/borrowed-token-04.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-04.webp"
@@ -3772,7 +3772,7 @@
     "category": "summon",
     "subtype": "thrall",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "ghost",
       "thrall"
@@ -3780,7 +3780,7 @@
     "source": "self",
     "license": "private-use",
     "derived_from": "summons/borrowed-keyart-05.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/borrowed-token-05.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-05.webp"
@@ -3836,7 +3836,7 @@
     "category": "summon",
     "subtype": "thrall",
     "type": "token",
-    "variant": "animated-smoke",
+    "variant": "static",
     "tags": [
       "ghost",
       "thrall"
@@ -3844,7 +3844,7 @@
     "source": "self",
     "license": "private-use",
     "derived_from": "summons/borrowed-keyart-06.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "added": "2026-11-05",
     "path": "kingmaker/radomir/summons/borrowed-token-06.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/radomir/summons/borrowed-token-06.webp"
@@ -4245,7 +4245,7 @@
     "subject": "smoke",
     "category": "character",
     "type": "token",
-    "variant": "animated-heatsink",
+    "variant": "static",
     "tags": [
       "soldier",
       "heavy-weapon",
@@ -4256,7 +4256,7 @@
     "license": "private-use",
     "added": "2026-11-07",
     "derived_from": "smoke-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/smoke/smoke-token-01.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/smoke/smoke-token-01.webp"
   },
@@ -4363,7 +4363,7 @@
     "subject": "smoke",
     "category": "character",
     "type": "token",
-    "variant": "animated-ammo-belt",
+    "variant": "static",
     "tags": [
       "soldier",
       "starfinder"
@@ -4372,7 +4372,7 @@
     "license": "private-use",
     "added": "2026-11-06",
     "derived_from": "smoke-keyart.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/smoke/smoke-token-02.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/smoke/smoke-token-02.webp"
   },
@@ -4531,7 +4531,7 @@
     "subject": "smoke",
     "category": "character",
     "type": "token",
-    "variant": "animated-headphones",
+    "variant": "static",
     "tags": [
       "soldier",
       "starfinder",
@@ -4542,7 +4542,7 @@
     "license": "private-use",
     "added": "2026-11-13",
     "derived_from": "smoke-keyart-02.webp",
-    "dimensions": "256x256",
+    "dimensions": "512x512",
     "path": "kingmaker/smoke/smoke-token-03.webp",
     "url": "https://0utrider.github.io/dramatis/kingmaker/smoke/smoke-token-03.webp"
   },

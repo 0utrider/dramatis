@@ -58,7 +58,7 @@ assets:
   subject: lindsey
   category: character
   type: token
-  variant: animated-sheet-music
+  variant: static
   tags:
   - envoy
   - npc
@@ -69,7 +69,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: lindsey-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: lindsey-token.png
   subject: lindsey
   category: character

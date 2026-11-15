@@ -60,7 +60,7 @@ assets:
   subject: harrim
   category: character
   type: token
-  variant: animated-rusted-iron
+  variant: static
   tags:
   - npc
   - dwarf
@@ -72,7 +72,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: harrim-token.png
   subject: harrim
   category: character
@@ -113,7 +113,7 @@ assets:
   subject: harrim
   category: character
   type: token
-  variant: animated-rainbow-unicorn
+  variant: static
   tags:
   - npc
   - dwarf
@@ -127,7 +127,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
-  dimensions: 320x320
+  dimensions: 640x640
 - file: harrim-rainbow-token.png
   subject: harrim
   category: character

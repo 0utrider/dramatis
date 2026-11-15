@@ -49,7 +49,7 @@ assets:
   subject: farigh
   category: character
   type: token
-  variant: animated-full-2.6x
+  variant: static
   tags:
   - novian
   - black-hole
@@ -57,7 +57,7 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: farigh-keyart.webp
-  dimensions: 666x666
+  dimensions: 1332x1332
 - file: farigh-token.gif
   subject: farigh
   category: character

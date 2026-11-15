@@ -51,7 +51,7 @@ assets:
   subject: smoke
   category: character
   type: token
-  variant: animated-heatsink
+  variant: static
   tags:
   - soldier
   - heavy-weapon
@@ -61,7 +61,7 @@ assets:
   license: private-use
   added: '2026-11-07'
   derived_from: smoke-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: smoke-token-01.gif
   subject: smoke
   category: character
@@ -109,7 +109,7 @@ assets:
   subject: smoke
   category: character
   type: token
-  variant: animated-ammo-belt
+  variant: static
   tags:
   - soldier
   - starfinder
@@ -117,7 +117,7 @@ assets:
   license: private-use
   added: '2026-11-06'
   derived_from: smoke-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: smoke-token-02.gif
   subject: smoke
   category: character
@@ -187,7 +187,7 @@ assets:
   subject: smoke
   category: character
   type: token
-  variant: animated-headphones
+  variant: static
   tags:
   - soldier
   - starfinder
@@ -197,7 +197,7 @@ assets:
   license: private-use
   added: '2026-11-13'
   derived_from: smoke-keyart-02.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: smoke-token-03.gif
   subject: smoke
   category: character

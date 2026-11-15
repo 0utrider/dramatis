@@ -54,7 +54,7 @@ assets:
   subject: jaethal
   category: character
   type: token
-  variant: animated-lacquer
+  variant: static
   tags:
   - npc
   - elf
@@ -64,7 +64,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: jaethal-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: jaethal-token.png
   subject: jaethal
   category: character

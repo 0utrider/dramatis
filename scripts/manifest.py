@@ -145,7 +145,7 @@ def main() -> int:
 
     # every published webp must live under a character folder (or the shared icons library)
     for f in sorted([*ROOT.rglob("*.webp"), *(f for e in PUBLISHED_EXT[1:] for f in ROOT.rglob("*" + e))]):
-        if is_working(f) or ROOT / "icons" in f.parents or ROOT / "tiles" in f.parents:
+        if is_working(f) or ROOT / "icons" in f.parents or ROOT / "tiles" in f.parents or ROOT / "banners" in f.parents:
             continue
         if not any(d in f.parents for d in char_dirs):
             errors.append(f"{f.relative_to(ROOT)}: not inside a character folder with character.yaml")

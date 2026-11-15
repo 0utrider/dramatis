@@ -57,7 +57,7 @@ assets:
   subject: tartuccio
   category: character
   type: token
-  variant: animated-treasury
+  variant: static
   tags:
   - npc
   - gnome
@@ -68,7 +68,7 @@ assets:
   license: private-use
   added: '2026-11-14'
   derived_from: tartuccio-keyart.webp
-  dimensions: 256x256
+  dimensions: 512x512
 - file: tartuccio-token.png
   subject: tartuccio
   category: character

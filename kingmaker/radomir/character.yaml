@@ -53,7 +53,7 @@ assets:
   subject: radomir
   category: character
   type: token
-  variant: animated-wisps
+  variant: static
   tags:
   - necromancer
   - human
@@ -132,7 +132,7 @@ assets:
   category: companion
   subtype: familiar
   type: token
-  variant: animated-wisps
+  variant: static
   tags:
   - cat
   - undead
@@ -229,14 +229,14 @@ assets:
   subject: stag
   category: summon
   type: token
-  variant: animated-smoke-brass
+  variant: static
   tags:
   - spirit
   - stag
   - guardian
   source: self
   license: private-use
-  dimensions: 256x256
+  dimensions: 512x512
   derived_from: summons/stag-keyart.webp
   added: '2026-11-05'
 - file: summons/stag-token-02.webp
@@ -292,13 +292,13 @@ assets:
   subject: rabbit
   category: summon
   type: token
-  variant: animated-smoke
+  variant: static
   tags:
   - spirit
   - rabbit
   source: self
   license: private-use
-  dimensions: 256x256
+  dimensions: 512x512
   derived_from: summons/rabbit-keyart.webp
   added: '2026-11-05'
 - file: summons/rabbit-token-02.webp
@@ -356,14 +356,14 @@ assets:
   subject: singer
   category: summon
   type: token
-  variant: animated-smoke
+  variant: static
   tags:
   - spirit
   - singer
   - lantern
   source: self
   license: private-use
-  dimensions: 256x256
+  dimensions: 512x512
   derived_from: summons/singer-keyart.webp
   added: '2026-11-05'
 - file: summons/singer-token-02.webp
@@ -426,14 +426,14 @@ assets:
   category: summon
   subtype: reed
   type: token
-  variant: animated-smoke
+  variant: static
   tags:
   - spirit
   - reeds
   - lantern
   source: self
   license: private-use
-  dimensions: 256x256
+  dimensions: 512x512
   derived_from: summons/reeds-keyart.webp
   added: '2026-11-05'
 - file: summons/reeds-token-02.webp
@@ -543,7 +543,7 @@ assets:
   category: summon
   subtype: thrall
   type: keyart
-  tags: &id001
+  tags:
   - ghost
   - thrall
   source: self
@@ -555,7 +555,9 @@ assets:
   category: summon
   subtype: thrall
   type: portrait
-  tags: *id001
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   added: '2026-11-05'
@@ -566,7 +568,7 @@ assets:
   category: summon
   subtype: thrall
   type: keyart
-  tags: &id002
+  tags:
   - ghost
   - thrall
   source: self
@@ -578,7 +580,9 @@ assets:
   category: summon
   subtype: thrall
   type: portrait
-  tags: *id002
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   added: '2026-11-05'
@@ -589,7 +593,7 @@ assets:
   category: summon
   subtype: thrall
   type: keyart
-  tags: &id003
+  tags:
   - ghost
   - thrall
   source: self
@@ -601,7 +605,9 @@ assets:
   category: summon
   subtype: thrall
   type: portrait
-  tags: *id003
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   added: '2026-11-05'
@@ -612,7 +618,7 @@ assets:
   category: summon
   subtype: thrall
   type: keyart
-  tags: &id004
+  tags:
   - ghost
   - thrall
   source: self
@@ -624,7 +630,9 @@ assets:
   category: summon
   subtype: thrall
   type: portrait
-  tags: *id004
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   added: '2026-11-05'
@@ -635,7 +643,7 @@ assets:
   category: summon
   subtype: thrall
   type: keyart
-  tags: &id005
+  tags:
   - ghost
   - thrall
   source: self
@@ -647,7 +655,9 @@ assets:
   category: summon
   subtype: thrall
   type: portrait
-  tags: *id005
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   added: '2026-11-05'
@@ -658,7 +668,7 @@ assets:
   category: summon
   subtype: thrall
   type: keyart
-  tags: &id006
+  tags:
   - ghost
   - thrall
   source: self
@@ -670,7 +680,9 @@ assets:
   category: summon
   subtype: thrall
   type: portrait
-  tags: *id006
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   added: '2026-11-05'
@@ -682,7 +694,7 @@ assets:
   subtype: thrall
   type: token
   variant: animated-smoke
-  tags: &id007
+  tags:
   - ghost
   - thrall
   source: self
@@ -695,12 +707,14 @@ assets:
   category: summon
   subtype: thrall
   type: token
-  variant: animated-smoke
-  tags: *id007
+  variant: static
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   derived_from: summons/borrowed-keyart-01.webp
-  dimensions: 256x256
+  dimensions: 512x512
   added: '2026-11-05'
 - file: summons/borrowed-token-02.webm
   subject: borrowed
@@ -708,7 +722,7 @@ assets:
   subtype: thrall
   type: token
   variant: animated-smoke
-  tags: &id008
+  tags:
   - ghost
   - thrall
   source: self
@@ -721,12 +735,14 @@ assets:
   category: summon
   subtype: thrall
   type: token
-  variant: animated-smoke
-  tags: *id008
+  variant: static
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   derived_from: summons/borrowed-keyart-02.webp
-  dimensions: 256x256
+  dimensions: 512x512
   added: '2026-11-05'
 - file: summons/borrowed-token-03.webm
   subject: borrowed
@@ -734,7 +750,7 @@ assets:
   subtype: thrall
   type: token
   variant: animated-smoke
-  tags: &id009
+  tags:
   - ghost
   - thrall
   source: self
@@ -747,12 +763,14 @@ assets:
   category: summon
   subtype: thrall
   type: token
-  variant: animated-smoke
-  tags: *id009
+  variant: static
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   derived_from: summons/borrowed-keyart-03.webp
-  dimensions: 256x256
+  dimensions: 512x512
   added: '2026-11-05'
 - file: summons/borrowed-token-04.webm
   subject: borrowed
@@ -760,7 +778,7 @@ assets:
   subtype: thrall
   type: token
   variant: animated-smoke
-  tags: &id010
+  tags:
   - ghost
   - thrall
   source: self
@@ -773,12 +791,14 @@ assets:
   category: summon
   subtype: thrall
   type: token
-  variant: animated-smoke
-  tags: *id010
+  variant: static
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   derived_from: summons/borrowed-keyart-04.webp
-  dimensions: 256x256
+  dimensions: 512x512
   added: '2026-11-05'
 - file: summons/borrowed-token-05.webm
   subject: borrowed
@@ -786,7 +806,7 @@ assets:
   subtype: thrall
   type: token
   variant: animated-smoke
-  tags: &id011
+  tags:
   - ghost
   - thrall
   source: self
@@ -799,12 +819,14 @@ assets:
   category: summon
   subtype: thrall
   type: token
-  variant: animated-smoke
-  tags: *id011
+  variant: static
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   derived_from: summons/borrowed-keyart-05.webp
-  dimensions: 256x256
+  dimensions: 512x512
   added: '2026-11-05'
 - file: summons/borrowed-token-06.webm
   subject: borrowed
@@ -812,7 +834,7 @@ assets:
   subtype: thrall
   type: token
   variant: animated-smoke
-  tags: &id012
+  tags:
   - ghost
   - thrall
   source: self
@@ -825,12 +847,14 @@ assets:
   category: summon
   subtype: thrall
   type: token
-  variant: animated-smoke
-  tags: *id012
+  variant: static
+  tags:
+  - ghost
+  - thrall
   source: self
   license: private-use
   derived_from: summons/borrowed-keyart-06.webp
-  dimensions: 256x256
+  dimensions: 512x512
   added: '2026-11-05'
 - file: fx/bloody-tendrils-01.webp
   subject: bloody-tendrils

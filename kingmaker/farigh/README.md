@@ -17,7 +17,7 @@ Metadata for every file is in `character.yaml`.
 
 - `farigh-keyart.webp`: master art
 - `farigh-portrait.webp`: 1:1 portrait
-- `farigh-token`: full-body animated token (sphere, halo and the whole accretion disk on transparency, no ring) as `.webm` (use in Foundry, it shows animated WebP as a still frame), `.webp`, and `.gif` (under 8 MB, for Discord); `farigh-token.png` is the static version
+- `farigh-token`: full-body animated token (sphere, halo and the whole accretion disk on transparency, no ring) as `.webm` (the animated one, use in Foundry), a high-quality still `.webp`, and `.gif` (under 8 MB, for Discord); `farigh-token.png` is the static version
 
 **Foundry:** set the token's Scale to 2.6 and turn the dynamic token ring off. The grid square then spans the halo's outer edge, and the disk overhangs it on both sides. The `.png` is a static frame of the same full-body art.
 

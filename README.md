@@ -24,7 +24,7 @@ subject name (`companions/obol-portrait.webp`, `fx/life-tap.webp`).
 | --- | --- | --- |
 | `keyart` | Any ratio, best-quality master | The definitive art piece |
 | `portrait` | 1:1, closer crop | Foundry actor image |
-| `token` | 1:1, 512×512, ringed, bust crop | Foundry canvas token |
+| `token` | 1:1, 512×512, ringed, bust crop | Foundry canvas token (`.webm` animated, `.webp` still) |
 | `bust` | Optional, head and shoulders, unringed | Source crop for tokens |
 | `fx` | Any ratio | Spell, skill or ability art |
 
