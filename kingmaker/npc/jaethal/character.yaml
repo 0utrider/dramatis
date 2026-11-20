@@ -80,3 +80,18 @@ assets:
   added: '2026-11-14'
   derived_from: jaethal-keyart.webp
   dimensions: 512x512
+- file: jaethal-loop.mp4
+  subject: jaethal
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - npc
+  - elf
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: jaethal-keyart.webp

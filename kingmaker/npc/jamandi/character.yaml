@@ -85,3 +85,19 @@ assets:
   added: '2026-11-14'
   derived_from: jamandi-keyart.webp
   dimensions: 512x512
+- file: jamandi-loop.mp4
+  subject: jamandi
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - npc
+  - half-elf
+  - noble
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: jamandi-keyart.webp

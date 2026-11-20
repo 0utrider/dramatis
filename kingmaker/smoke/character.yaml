@@ -228,3 +228,16 @@ assets:
   added: '2026-11-13'
   derived_from: smoke-keyart-02.webp
   dimensions: 512x512
+- file: smoke-loop-03.mp4
+  subject: smoke
+  category: character
+  type: loop
+  variant: scene-loop-03
+  tags:
+  - soldier
+  - starfinder
+  source: self
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: smoke-keyart.webp

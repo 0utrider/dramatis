@@ -80,3 +80,18 @@ assets:
   added: '2026-11-14'
   derived_from: varn-keyart.webp
   dimensions: 512x512
+- file: varn-loop.mp4
+  subject: varn
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - npc
+  - starfinder
+  - cowboy
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: varn-keyart.webp

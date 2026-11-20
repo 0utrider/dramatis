@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate character.yaml files, stamp metadata into each published .webp/.png/.gif/.webm, against the published files and rebuild manifest.json.
+"""Validate character.yaml files, stamp metadata into each published .webp/.png/.gif/.webm (.mp4 is listed only), against the published files and rebuild manifest.json.
 
 Run from anywhere. Exits non-zero if validation fails. Embeds EXIF/XMP (repo URL, owner, license) in every published file (idempotent; webm gets Matroska tags). Fills in `dimensions` for every asset
 (rewrites character.yaml only when a value changed) and writes /manifest.json.
@@ -19,7 +19,7 @@ import webpmeta  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 BASE_URL = "https://0utrider.github.io/dramatis"
 FOLDER_CATEGORY = {"": "character", "companions": "companion", "summons": "summon", "fx": "fx"}
-TYPES = {"keyart", "portrait", "token", "bust", "fx"}
+TYPES = {"keyart", "portrait", "token", "bust", "fx", "loop"}
 TILE_FOLDER_CATEGORY = {"bloody-tendrils": "tile"}  # add one entry per tile set folder
 ICON_FOLDER_CATEGORY = {"abilities": "ability", "spells": "spell", "equipment": "equipment"}
 SYSTEMS = {"pf2e", "sf2e", "pf1e"}
@@ -27,8 +27,8 @@ SOURCES = {"commissioned", "self", "stock"}
 CHARACTER_FIELDS = ("id", "name", "campaign", "system", "gm", "owner", "race", "class", "links", "summary")
 
 
-VIDEO_EXT = ".webm"  # needs hand-set dimensions; stamped with Matroska tags (no EXIF/XMP in webm)
-PUBLISHED_EXT = (".webp", ".webm", ".gif", ".png")  # every one gets embedded metadata (see webpmeta.py)
+VIDEO_EXT = (".webm", ".mp4")  # need hand-set dimensions; webm stamped with Matroska tags, mp4 validated and listed only (no embedding)
+PUBLISHED_EXT = (".webp", ".webm", ".gif", ".png", ".mp4")  # all but .mp4 get embedded metadata (see webpmeta.py)
 
 
 PRIVATE_TOP = {"av"}  # gitignored campaign dirs (Abomination Vaults work in progress): validated and stamped, not listed in manifest.json
@@ -184,10 +184,10 @@ def main() -> int:
                 errors.append(f"{rel_dir}/{f}: missing subject")
             if a.get("source") and a["source"] not in SOURCES:
                 errors.append(f"{rel_dir}/{f}: source must be one of {sorted(SOURCES)}")
-            is_video = path.suffix == VIDEO_EXT
+            is_video = path.suffix in VIDEO_EXT
             if is_video:
                 if not a.get("dimensions"):
-                    errors.append(f"{rel_dir}/{f}: .webm needs 'dimensions' set by hand")
+                    errors.append(f"{rel_dir}/{f}: video needs 'dimensions' set by hand")
             else:
                 with Image.open(path) as im:
                     dims = f"{im.width}x{im.height}"

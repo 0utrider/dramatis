@@ -86,3 +86,19 @@ assets:
   added: '2026-11-14'
   derived_from: lindsey-keyart.webp
   dimensions: 512x512
+- file: lindsey-loop.mp4
+  subject: lindsey
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - envoy
+  - npc
+  - starfinder
+  - music
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: lindsey-keyart.webp

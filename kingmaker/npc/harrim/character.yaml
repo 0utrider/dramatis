@@ -166,3 +166,20 @@ assets:
   added: '2026-11-14'
   derived_from: harrim-keyart.webp
   dimensions: 640x640
+- file: harrim-loop.mp4
+  subject: harrim
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - npc
+  - dwarf
+  - power-armor
+  - shotgun
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: harrim-keyart.webp

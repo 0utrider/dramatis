@@ -85,3 +85,19 @@ assets:
   added: '2026-11-14'
   derived_from: tartuccio-keyart.webp
   dimensions: 512x512
+- file: tartuccio-loop.mp4
+  subject: tartuccio
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - npc
+  - gnome
+  - villain
+  - starfinder
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: tartuccio-keyart.webp

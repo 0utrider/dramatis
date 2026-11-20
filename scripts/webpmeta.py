@@ -44,6 +44,8 @@ def write_meta(path, exif: bytes, xmp: bytes, entry: dict | None = None) -> bool
         return _write_gif(path, xmp)
     if ext == ".webm":
         return _write_webm(path, entry or {})
+    if ext == ".mp4":
+        return False  # listed and validated only, no embedding
     return _write_webp(path, exif, xmp)
 
 

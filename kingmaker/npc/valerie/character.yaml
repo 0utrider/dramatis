@@ -85,3 +85,19 @@ assets:
   added: '2026-11-14'
   derived_from: valerie-keyart.webp
   dimensions: 512x512
+- file: valerie-loop.mp4
+  subject: valerie
+  category: character
+  type: loop
+  variant: scene-loop
+  tags:
+  - npc
+  - starfinder
+  - plasma
+  - armor
+  source: self
+  artist: Emerald
+  license: private-use
+  added: '2026-11-14'
+  dimensions: 1280x720
+  derived_from: valerie-keyart.webp
