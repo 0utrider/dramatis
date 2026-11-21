@@ -524,3 +524,16 @@ assets:
   added: '2026-11-19'
   dimensions: 1280x720
   derived_from: summons/songbird-delphine-keyart.webp
+- file: fx/dialogue.webp
+  subject: dialogue
+  category: fx
+  type: fx
+  tags:
+  - necromancer
+  - dialogue
+  - macro
+  - rope
+  source: self
+  license: private-use
+  added: '2026-11-21'
+  dimensions: 512x512

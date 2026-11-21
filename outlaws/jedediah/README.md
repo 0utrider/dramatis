@@ -33,6 +33,7 @@ Metadata for every file is in `character.yaml`.
 - `jedediah-token`: animated token as `.webm` (use in Foundry), a lossless still `.webp` and `.png`, and `.gif` (under 8 MB, for Discord). Braid and spirit-flame ring with a silver lawman's star
 - `jedediah-loop.mp4`: full 1280x720 scene, same loop as the token
 - `summons/`: the six thralls above, each with `<id>-keyart.webp`, `-portrait.webp`, `-token.webm`/`.webp`/`.png` (spirit-chain ring) and `-loop.mp4`
+- `fx/`: `dialogue.webp` (macro icon: spirit flame in a rope speech bubble, 512x512)
 
 Foundry shows a `.webp` token as a still, so use the `.webm`. The art fills one grid square and the ring overhangs it, so set the token Scale: **Doc 1.15, thralls 1.1**. The webm canvas is 588x588 for Doc and 564x564 for the thralls.
 

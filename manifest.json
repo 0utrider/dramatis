@@ -6152,6 +6152,34 @@
     "url": "https://0utrider.github.io/dramatis/outlaws/jedediah/summons/songbird-delphine-loop.mp4"
   },
   {
+    "id": "jedediah",
+    "name": "Jedediah \"Doc\" Hale",
+    "campaign": "Outlaws of Alkenstar",
+    "system": "pf2e",
+    "gm": "Wrangler",
+    "owner": "0utrider",
+    "race": "Human",
+    "class": "Necromancer",
+    "links": null,
+    "summary": "Frontier doctor and bounty hunter who brings his marks in dead, then raises them to work off their sentences.",
+    "file": "fx/dialogue.webp",
+    "subject": "dialogue",
+    "category": "fx",
+    "type": "fx",
+    "tags": [
+      "necromancer",
+      "dialogue",
+      "macro",
+      "rope"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-21",
+    "dimensions": "512x512",
+    "path": "outlaws/jedediah/fx/dialogue.webp",
+    "url": "https://0utrider.github.io/dramatis/outlaws/jedediah/fx/dialogue.webp"
+  },
+  {
     "collection": "icons",
     "file": "abilities/thrall-strike-physical.webp",
     "subject": "thrall-strike-physical",
