@@ -6201,6 +6201,25 @@
   },
   {
     "collection": "icons",
+    "file": "abilities/thrall-strike-bone.webp",
+    "subject": "thrall-strike-bone",
+    "category": "ability",
+    "type": "icon",
+    "tags": [
+      "necromancer",
+      "thrall",
+      "strike",
+      "bone"
+    ],
+    "source": "self",
+    "license": "private-use",
+    "added": "2026-11-22",
+    "dimensions": "512x512",
+    "path": "icons/abilities/thrall-strike-bone.webp",
+    "url": "https://0utrider.github.io/dramatis/icons/abilities/thrall-strike-bone.webp"
+  },
+  {
+    "collection": "icons",
     "file": "abilities/thrall-strike-spirit.webp",
     "subject": "thrall-strike-spirit",
     "category": "ability",
